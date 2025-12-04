@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collaboration Dashboard</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #020617;
+        --card: rgba(15, 23, 42, 0.85);
+        --accent: #38bdf8;
+        --accent-soft: rgba(14, 165, 233, 0.15);
+        --text: #f8fafc;
+        --muted: #94a3b8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background: radial-gradient(circle at top, #0ea5e9 0%, rgba(2, 6, 23, 1) 50%);
+        color: var(--text);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .dashboard {
+        width: min(900px, 100%);
+        background: rgba(2, 6, 23, 0.85);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 1.5rem;
+        padding: 2rem;
+        box-shadow: 0 40px 80px rgba(2, 6, 23, 0.6);
+        backdrop-filter: blur(12px);
+      }
+
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+      }
+
+      .back-link {
+        text-decoration: none;
+        color: var(--text);
+        border: 1px solid rgba(248, 250, 252, 0.3);
+        padding: 0.45rem 1rem;
+        border-radius: 999px;
+        font-size: 0.95rem;
+        transition: background 0.2s ease, color 0.2s ease;
+      }
+
+      .back-link:hover {
+        background: rgba(248, 250, 252, 0.08);
+        color: #fcd34d;
+      }
+
+      .summary {
+        background: var(--accent-soft);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .summary h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.3rem;
+      }
+
+      .summary p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 1rem;
+      }
+
+      li {
+        background: var(--card);
+        border-radius: 1rem;
+        padding: 1.2rem;
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      li strong {
+        font-size: 1.05rem;
+      }
+
+      li span {
+        color: var(--muted);
+      }
+
+      .collab-link {
+        align-self: center;
+        text-decoration: none;
+        border: 1px solid rgba(248, 250, 252, 0.4);
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        color: var(--text);
+        transition: background 0.2s ease, color 0.2s ease;
+      }
+
+      .collab-link:hover {
+        background: rgba(248, 250, 252, 0.1);
+        color: #fcd34d;
+      }
+
+      .empty-state {
+        text-align: center;
+        color: var(--muted);
+        padding: 2rem 1rem;
+        border: 1px dashed rgba(148, 163, 184, 0.4);
+        border-radius: 1rem;
+        margin-top: 1rem;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 1rem;
+        }
+
+        .dashboard {
+          padding: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <header>
+        <div>
+          <small>FAIR Project · Partnerships</small>
+          <h1 id="title">Collaboration Dashboard</h1>
+        </div>
+        <a class="back-link" href="index.html">← Back to World Map</a>
+      </header>
+
+      <section class="summary">
+        <h2 id="summary-title">Global Collaborations</h2>
+        <p id="summary-detail">Select a country to view its collaborations.</p>
+      </section>
+
+      <section>
+        <ul id="collaboration-list"></ul>
+        <div id="empty" class="empty-state" hidden>No collaborations found for this country.</div>
+      </section>
+    </div>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const countryCode = params.get("country") || "";
+      const list = document.getElementById("collaboration-list");
+      const emptyState = document.getElementById("empty");
+      const summaryTitle = document.getElementById("summary-title");
+      const summaryDetail = document.getElementById("summary-detail");
+      const title = document.getElementById("title");
+
+      // Load the same collaborations.json used by the map
+      fetch("collaborations.json")
+        .then((resp) => resp.json())
+        .then((countries) => {
+          if (!Array.isArray(countries) || countries.length === 0) {
+            summaryTitle.textContent = "No data available";
+            summaryDetail.textContent =
+              "Run the data pipeline to generate collaborations.json from polito_works.json.";
+            emptyState.hidden = false;
+            return;
+          }
+
+          let countryEntry;
+          if (countryCode) {
+            countryEntry = countries.find((c) => c.country_code === countryCode);
+          }
+
+          if (!countryEntry) {
+            summaryTitle.textContent = "Global overview";
+            summaryDetail.textContent =
+              "Select a country on the map to see its detailed collaborations.";
+            emptyState.hidden = false;
+            return;
+          }
+
+          const data = countryEntry.collaborations || [];
+          const displayName = countryEntry.country_name || countryEntry.country_code;
+
+          title.textContent = `${displayName} Collaborations`;
+          summaryTitle.textContent = displayName;
+
+          if (data.length) {
+            summaryDetail.textContent = `${data.length} dataset collaboration${
+              data.length === 1 ? "" : "s"
+            } with Politecnico di Torino.`;
+            emptyState.hidden = true;
+
+            data.forEach((item) => {
+              const li = document.createElement("li");
+              const url = item.dataset_id || "";
+              const title = item.title || "Dataset";
+              const partner = item.partner || "Unknown partner";
+              const year = item.year || "";
+
+              const button = url
+                ? `<a class="collab-link" href="${url}" target="_blank" rel="noopener noreferrer">View</a>`
+                : "";
+
+              li.innerHTML = `
+                <div>
+                  <strong>${partner}</strong>
+                  <span>${title}</span>
+                  <small>${year}</small>
+                </div>
+                ${button}
+              `;
+              list.appendChild(li);
+            });
+          } else {
+            summaryDetail.textContent =
+              "No collaborations recorded yet. Check back as the network expands.";
+            emptyState.hidden = false;
+          }
+        })
+        .catch(() => {
+          summaryTitle.textContent = "Error loading data";
+          summaryDetail.textContent = "Failed to load collaboration data.";
+          emptyState.hidden = false;
+        });
+    </script>
+  </body>
+</html>
+

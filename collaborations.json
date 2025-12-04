@@ -1,0 +1,518 @@
+[
+  {
+    "country_code": "IT",
+    "collaborations_count": 22,
+    "collaborations": [
+      {
+        "partner": "University of Turin",
+        "dataset_id": "https://openalex.org/W4393589540",
+        "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+        "year": 2023
+      },
+      {
+        "partner": "University of Bari Aldo Moro",
+        "dataset_id": "https://openalex.org/W4393589540",
+        "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+        "year": 2023
+      },
+      {
+        "partner": "Sapienza University of Rome",
+        "dataset_id": "https://openalex.org/W4393835804",
+        "title": "Digitized geological and geophysical data from the Po Plain and the northern Adriatic Sea (north Italy) collected from public sources.",
+        "year": 2023
+      },
+      {
+        "partner": "Research Institute for Geo-Hydrological Protection",
+        "dataset_id": "https://openalex.org/W4393439618",
+        "title": "Geophone data in the Rutor proglacial area (Valle d'Aosta, Italy)",
+        "year": 2023
+      },
+      {
+        "partner": "Research Institute for Geo-Hydrological Protection",
+        "dataset_id": "https://openalex.org/W4393449485",
+        "title": "Rutor glacier fronts footprints",
+        "year": 2023
+      },
+      {
+        "partner": "Research Institute for Geo-Hydrological Protection",
+        "dataset_id": "https://openalex.org/W4393760362",
+        "title": "Hydrometric data in the Rutor proglacial area",
+        "year": 2023
+      },
+      {
+        "partner": "Research Institute for Geo-Hydrological Protection",
+        "dataset_id": "https://openalex.org/W4393966147",
+        "title": "Bathymetry, sediment thickness, and geotechnical-geophysical properties of sediments of Lake Seracchi in Rutor proglacial area",
+        "year": 2023
+      },
+      {
+        "partner": "Research Institute for Geo-Hydrological Protection",
+        "dataset_id": "https://openalex.org/W4393655138",
+        "title": "Orthophoto and DSM Rutor Glacier",
+        "year": 2023
+      },
+      {
+        "partner": "National Research Council - Institute of Methodologies for Environmental Analysis",
+        "dataset_id": "https://openalex.org/W4393589540",
+        "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+        "year": 2023
+      },
+      {
+        "partner": "National Research Council",
+        "dataset_id": "https://openalex.org/W4393439618",
+        "title": "Geophone data in the Rutor proglacial area (Valle d'Aosta, Italy)",
+        "year": 2023
+      },
+      {
+        "partner": "Istituto Superiore per la Protezione e la Ricerca Ambientale",
+        "dataset_id": "https://openalex.org/W4393835804",
+        "title": "Digitized geological and geophysical data from the Po Plain and the northern Adriatic Sea (north Italy) collected from public sources.",
+        "year": 2023
+      },
+      {
+        "partner": "Institute of Geosciences and Earth Resources",
+        "dataset_id": "https://openalex.org/W4393589540",
+        "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+        "year": 2023
+      },
+      {
+        "partner": "Institute of Environmental Geology and Geoengineering",
+        "dataset_id": "https://openalex.org/W4393835804",
+        "title": "Digitized geological and geophysical data from the Po Plain and the northern Adriatic Sea (north Italy) collected from public sources.",
+        "year": 2023
+      },
+      {
+        "partner": "Free University of Bozen-Bolzano",
+        "dataset_id": "https://openalex.org/W4393439618",
+        "title": "Geophone data in the Rutor proglacial area (Valle d'Aosta, Italy)",
+        "year": 2023
+      },
+      {
+        "partner": "University of Sassari",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "University of Bologna",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Research Centre for Cereal and Industrial Crops",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Laboratori Guglielmo Marconi (Italy)",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "University of Palermo",
+        "dataset_id": "https://openalex.org/W4394057386",
+        "title": "Experimental assessment of the mixing quality in a circular cross-sectional t-shaped mixer for the precipitation of sparingly soluble compounds",
+        "year": 2021
+      },
+      {
+        "partner": "Istituto Nazionale di Ricerca Metrologica",
+        "dataset_id": "https://openalex.org/W3208204015",
+        "title": "Dataset from: Design of a Littrow-type diode laser with independent control of cavity length and grating rotation",
+        "year": 2021
+      },
+      {
+        "partner": "Istituto Nazionale di Ricerca Metrologica",
+        "dataset_id": "https://openalex.org/W4393536542",
+        "title": "Absolute frequency measurement of the 1 S 0 – 3 P 0 transition of 171 Yb with a link to International Atomic Time",
+        "year": 2019
+      },
+      {
+        "partner": "University of Messina",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "GB",
+    "collaborations_count": 9,
+    "collaborations": [
+      {
+        "partner": "University of Oxford",
+        "dataset_id": "https://openalex.org/W4393872839",
+        "title": "RPC-Net Dataset. Simultaneous HD-sEMG Recordings on the Forearm and angles of a 24-DOF Hand Kinematic Model",
+        "year": 2023
+      },
+      {
+        "partner": "University of Sheffield",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Newcastle upon Tyne Hospitals NHS Foundation Trust",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Newcastle University",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Insigneo",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "University of Cambridge",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      },
+      {
+        "partner": "Cardiff University",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      },
+      {
+        "partner": "University of Cambridge",
+        "dataset_id": "https://openalex.org/W3215373063",
+        "title": "Raw data and supplementary material of the fifth inter-laboratory testing program (RRT5, self-healing concrete with macrocapsules) of the EU COST action SARCOS",
+        "year": 2020
+      },
+      {
+        "partner": "Imperial College London",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "DE",
+    "collaborations_count": 6,
+    "collaborations": [
+      {
+        "partner": "University of Lübeck",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "University Hospital Schleswig-Holstein",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "University of Freiburg",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      },
+      {
+        "partner": "Max Planck Institute for Chemical Energy Conversion",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      },
+      {
+        "partner": "Helmholtz-Zentrum Berlin für Materialien und Energie",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "FR",
+    "collaborations_count": 5,
+    "collaborations": [
+      {
+        "partner": "Institut des Géosciences de l'Environnement",
+        "dataset_id": "https://openalex.org/W4393589540",
+        "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+        "year": 2023
+      },
+      {
+        "partner": "Université Paris-Sud",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      },
+      {
+        "partner": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      },
+      {
+        "partner": "Centre National de la Recherche Scientifique",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      },
+      {
+        "partner": "CEA Paris-Saclay",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "CH",
+    "collaborations_count": 3,
+    "collaborations": [
+      {
+        "partner": "École Polytechnique Fédérale de Lausanne",
+        "dataset_id": "https://openalex.org/W4394030050",
+        "title": "Tomographic volumetric bioprinting of 3D pancreatic cancer models",
+        "year": 2023
+      },
+      {
+        "partner": "École Polytechnique Fédérale de Lausanne",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      },
+      {
+        "partner": "Swiss Federal Laboratories for Materials Science and Technology",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "ES",
+    "collaborations_count": 3,
+    "collaborations": [
+      {
+        "partner": "Telefonica Research and Development",
+        "dataset_id": "https://openalex.org/W3173434596",
+        "title": "Tracking Knowledge Propagation Across Wikipedia Languages",
+        "year": 2021
+      },
+      {
+        "partner": "Instituto de Ciencias de La Construcción Eduardo Torroja",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      },
+      {
+        "partner": "Institut Català d'Investigació Química",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "US",
+    "collaborations_count": 3,
+    "collaborations": [
+      {
+        "partner": "Wikimedia Foundation",
+        "dataset_id": "https://openalex.org/W3173434596",
+        "title": "Tracking Knowledge Propagation Across Wikipedia Languages",
+        "year": 2021
+      },
+      {
+        "partner": "Cordoba University",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      },
+      {
+        "partner": "Brown University",
+        "dataset_id": "https://openalex.org/W4237500344",
+        "title": "10.1063/1.3253423.1",
+        "year": 2009
+      }
+    ]
+  },
+  {
+    "country_code": "NL",
+    "collaborations_count": 2,
+    "collaborations": [
+      {
+        "partner": "Terra",
+        "dataset_id": "https://openalex.org/W4393589540",
+        "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+        "year": 2023
+      },
+      {
+        "partner": "Leiden University",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "PL",
+    "collaborations_count": 2,
+    "collaborations": [
+      {
+        "partner": "Cracow University of Technology",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      },
+      {
+        "partner": "Cracow University of Technology",
+        "dataset_id": "https://openalex.org/W3215373063",
+        "title": "Raw data and supplementary material of the fifth inter-laboratory testing program (RRT5, self-healing concrete with macrocapsules) of the EU COST action SARCOS",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country_code": "LV",
+    "collaborations_count": 2,
+    "collaborations": [
+      {
+        "partner": "Riga Technical University",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      },
+      {
+        "partner": "Riga Technical University",
+        "dataset_id": "https://openalex.org/W3215373063",
+        "title": "Raw data and supplementary material of the fifth inter-laboratory testing program (RRT5, self-healing concrete with macrocapsules) of the EU COST action SARCOS",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country_code": "CA",
+    "collaborations_count": 2,
+    "collaborations": [
+      {
+        "partner": "University of Alberta",
+        "dataset_id": "https://openalex.org/W3135313273",
+        "title": "A new method for protein characterization and classification using geometrical features for 3D face analysis: an example of tubulin structures",
+        "year": 2020
+      },
+      {
+        "partner": "MacEwan University",
+        "dataset_id": "https://openalex.org/W3135313273",
+        "title": "A new method for protein characterization and classification using geometrical features for 3D face analysis: an example of tubulin structures",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country_code": "BE",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "KU Leuven",
+        "dataset_id": "https://openalex.org/W3215373063",
+        "title": "Raw data and supplementary material of the fifth inter-laboratory testing program (RRT5, self-healing concrete with macrocapsules) of the EU COST action SARCOS",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "country_code": "IL",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "Tel Aviv Sourasky Medical Center",
+        "dataset_id": "https://openalex.org/W4393634046",
+        "title": "Example subjects for Mobilise-D data standardization",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "country_code": "BR",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "Universidade Federal do Espírito Santo",
+        "dataset_id": "https://openalex.org/W3173434596",
+        "title": "Tracking Knowledge Propagation Across Wikipedia Languages",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "country_code": "SE",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "Uppsala University",
+        "dataset_id": "https://openalex.org/W4235558188",
+        "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "country_code": "GR",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "National Centre of Scientific Research \"Demokritos\"",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "country_code": "LT",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "Kaunas University of Technology",
+        "dataset_id": "https://openalex.org/W4393612609",
+        "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "country_code": "PT",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "Instituto de Telecomunicações",
+        "dataset_id": "https://openalex.org/W3215305333",
+        "title": "Experimental Data on PM-16QAM Long-Haul Transmission (after DSP)",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "country_code": "SG",
+    "collaborations_count": 1,
+    "collaborations": [
+      {
+        "partner": "Institute of High Performance Computing",
+        "dataset_id": "https://openalex.org/W4237500344",
+        "title": "10.1063/1.3253423.1",
+        "year": 2009
+      }
+    ]
+  }
+]

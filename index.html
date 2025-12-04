@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f172a;
+        --fg: #f8fafc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #0f172a, #1d4ed8);
+        color: var(--fg);
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        padding: 1.5rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        margin: 0.2rem 0 0.5rem;
+      }
+
+      p {
+        margin: 0;
+        opacity: 0.8;
+      }
+
+      #country-info {
+        font-size: 0.95rem;
+        letter-spacing: 0.02em;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      #country-info.active {
+        opacity: 1;
+        transform: translateY(-2px);
+        color: #fcd34d;
+      }
+
+      main {
+        flex: 1;
+        padding: 0 1.5rem 1.5rem;
+      }
+
+      #map {
+        width: 100%;
+        height: calc(100vh - 180px);
+        min-height: 420px;
+        border-radius: 1rem;
+        box-shadow: 0 40px 80px rgba(15, 23, 42, 0.35);
+        overflow: hidden;
+      }
+
+      @media (max-width: 600px) {
+        header {
+          padding: 1.25rem;
+        }
+
+        main {
+          padding: 0 1rem 1rem;
+        }
+
+        #map {
+          height: calc(100vh - 220px);
+        }
+      }
+
+      .collab-panel {
+        position: fixed;
+        top: 15.5rem;
+        left: 8rem;
+        width: 320px;
+        max-height: calc(100vh - 9rem);
+        background: rgba(15, 23, 42, 0.96);
+        border-radius: 0.9rem;
+        border: 1px solid rgba(148, 163, 184, 0.6);
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.7);
+        padding: 0.9rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        z-index: 500;
+      }
+
+      .collab-panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        cursor: move;
+        user-select: none;
+      }
+
+      .collab-panel-header h2 {
+        margin: 0;
+        font-size: 0.95rem;
+        flex: 1;
+      }
+
+      .collab-panel-close {
+        background: transparent;
+        border: none;
+        color: #e5e7eb;
+        cursor: pointer;
+        border-radius: 999px;
+        width: 1.6rem;
+        height: 1.6rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        flex-shrink: 0;
+      }
+
+      .collab-panel.dragging {
+        cursor: move;
+      }
+
+      .collab-panel.dragging * {
+        pointer-events: none;
+      }
+
+      .collab-panel-close:hover {
+        background: rgba(248, 250, 252, 0.12);
+      }
+
+      .collab-panel-summary {
+        margin: 0;
+        font-size: 0.8rem;
+        color: #9ca3af;
+      }
+
+      .collab-panel .collab-popup-list {
+        flex: 1;
+      }
+
+      @media (max-width: 900px) {
+        .collab-panel {
+          position: absolute;
+          top: 1rem;
+          left: 1rem;
+          right: 1rem;
+          width: auto;
+          max-height: 260px;
+        }
+      }
+
+      .collab-tooltip {
+        background: rgba(15, 23, 42, 0.92);
+        border: 1px solid rgba(248, 250, 252, 0.2);
+        border-radius: 0.5rem;
+        padding: 0.4rem 0.75rem;
+        color: #f8fafc;
+        font-size: 0.85rem;
+        font-weight: 500;
+        box-shadow: 0 10px 25px rgba(2, 6, 23, 0.35);
+      }
+
+      .collab-tooltip:before {
+        border-top-color: rgba(15, 23, 42, 0.92);
+      }
+
+      .collab-popup {
+        max-width: 260px;
+        color: #e5e7eb;
+      }
+
+      .collab-popup h3 {
+        margin: 0 0 0.35rem;
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+
+      .collab-popup p {
+        margin: 0 0 0.4rem;
+        font-size: 0.8rem;
+        opacity: 0.8;
+      }
+
+      .collab-popup-list {
+        max-height: 160px;
+        overflow-y: auto;
+        padding-right: 0.1rem;
+      }
+
+      .collab-popup-list ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+      }
+
+      .collab-popup-list li {
+        background: rgba(15, 23, 42, 0.9);
+        border-radius: 0.45rem;
+        padding: 0.4rem 0.5rem;
+        border: 1px solid rgba(148, 163, 184, 0.4);
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        font-size: 0.78rem;
+        transition: background 0.2s ease, border-color 0.2s ease;
+        cursor: pointer;
+      }
+
+      .collab-popup-list li:hover {
+        background: rgba(14, 165, 233, 0.2);
+        border-color: rgba(14, 165, 233, 0.6);
+      }
+
+      .collab-popup-list li strong {
+        display: block;
+        margin-bottom: 0.15rem;
+      }
+
+      .collab-popup-list li span {
+        opacity: 0.85;
+      }
+
+      .collab-link {
+        align-self: center;
+        text-decoration: none;
+        border: 1px solid rgba(248, 250, 252, 0.4);
+        padding: 0.25rem 0.6rem;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        color: #f8fafc;
+        transition: background 0.2s ease, color 0.2s ease;
+      }
+
+      .collab-link:hover {
+        background: rgba(248, 250, 252, 0.2);
+        color: #fcd34d;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <small>FAIR Project · Explorer</small>
+      <h1>World Map Overview</h1>
+      <p id="country-info">Pan and zoom to explore any region on Earth.</p>
+    </header>
+    <main>
+      <div id="map" role="region" aria-label="Interactive world map"></div>
+      <aside id="collab-panel" class="collab-panel" hidden>
+        <div class="collab-panel-header">
+          <h2 id="collab-panel-title">Collaborations</h2>
+          <button
+            id="collab-panel-close"
+            class="collab-panel-close"
+            type="button"
+            aria-label="Close collaboration list"
+          >
+            ×
+          </button>
+        </div>
+        <p id="collab-panel-summary" class="collab-panel-summary"></p>
+        <div class="collab-popup-list">
+          <ul id="collab-panel-list"></ul>
+        </div>
+      </aside>
+    </main>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script>
+      const map = L.map("map", {
+        worldCopyJump: true,
+        zoomControl: true,
+        attributionControl: true,
+      }).setView([20, 0], 2);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 6,
+        minZoom: 2,
+        attribution:
+          'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+      }).addTo(map);
+
+      // Map from ISO country code to display name and rough centroid coordinates
+      const COUNTRY_META = {
+        IT: { name: "Italy", coords: [41.9, 12.5] },
+        FR: { name: "France", coords: [46.2, 2.2] },
+        DE: { name: "Germany", coords: [52.52, 13.4] },
+        US: { name: "United States", coords: [38.9, -77.03] },
+        GB: { name: "United Kingdom", coords: [51.5, -0.12] },
+        ES: { name: "Spain", coords: [40.4, -3.7] },
+        NL: { name: "Netherlands", coords: [52.37, 4.9] },
+        SE: { name: "Sweden", coords: [59.3, 18.1] },
+        NO: { name: "Norway", coords: [59.9, 10.8] },
+        CH: { name: "Switzerland", coords: [46.9, 7.4] },
+        AT: { name: "Austria", coords: [48.2, 16.4] },
+        BE: { name: "Belgium", coords: [50.8, 4.4] },
+        PT: { name: "Portugal", coords: [38.7, -9.1] },
+        GR: { name: "Greece", coords: [37.9, 23.7] },
+        DK: { name: "Denmark", coords: [55.7, 12.6] },
+        FI: { name: "Finland", coords: [60.2, 24.9] },
+        PL: { name: "Poland", coords: [52.2, 21.0] },
+        CZ: { name: "Czech Republic", coords: [50.1, 14.4] },
+        HU: { name: "Hungary", coords: [47.5, 19.0] },
+        RO: { name: "Romania", coords: [44.4, 26.1] },
+        BG: { name: "Bulgaria", coords: [42.7, 23.3] },
+        RU: { name: "Russia", coords: [55.7, 37.6] },
+        CN: { name: "China", coords: [39.9, 116.4] },
+        JP: { name: "Japan", coords: [35.7, 139.7] },
+        IN: { name: "India", coords: [28.6, 77.2] },
+        BR: { name: "Brazil", coords: [-15.8, -47.9] },
+        AR: { name: "Argentina", coords: [-34.6, -58.4] },
+        CA: { name: "Canada", coords: [45.4, -75.7] },
+        AU: { name: "Australia", coords: [-35.3, 149.1] },
+        ZA: { name: "South Africa", coords: [-25.7, 28.2] },
+        KE: { name: "Kenya", coords: [-1.29, 36.82] },
+        EG: { name: "Egypt", coords: [30.0, 31.2] },
+        TR: { name: "Türkiye", coords: [39.9, 32.9] },
+        MX: { name: "Mexico", coords: [19.4, -99.1] },
+        CL: { name: "Chile", coords: [-33.4, -70.7] },
+        SG: { name: "Singapore", coords: [1.3521, 103.8198] },
+        LT: { name: "Lithuania", coords: [54.6872, 25.2797] },
+        LV: { name: "Latvia", coords: [56.9496, 24.1052] },
+        IL: { name: "Israel", coords: [31.7683, 35.2137] },
+      };
+
+      function countryMetaFromCode(code) {
+        if (COUNTRY_META[code]) return COUNTRY_META[code];
+        return {
+          name: code,
+          coords: [20, 0],
+        };
+      }
+
+      const infoPanel = document.getElementById("country-info");
+      const defaultInfo = infoPanel.textContent;
+
+      const collabPanel = document.getElementById("collab-panel");
+      const collabPanelTitle = document.getElementById("collab-panel-title");
+      const collabPanelSummary = document.getElementById("collab-panel-summary");
+      const collabPanelList = document.getElementById("collab-panel-list");
+      const collabPanelClose = document.getElementById("collab-panel-close");
+
+      // Base styles for circles
+      const baseCircleStyle = {
+        color: "#22d3ee",
+        weight: 2,
+        fillColor: "#0ea5e9",
+        fillOpacity: 0.35,
+      };
+
+      const hoverCircleStyle = {
+        color: "#f97316",
+        weight: 3,
+        fillColor: "#f59e0b",
+        fillOpacity: 0.55,
+      };
+
+      // Store all created circles so we can resize them on zoom
+      // and cross-link them to collaborations.
+      const countryCircles = [];
+      const circlesByCountry = {};
+      const datasetToCountries = {};
+      let datasetHighlightActive = null;
+      let datasetHighlightedCircles = [];
+
+      // Compute a circle radius (in pixels) based on collaboration "size" and current zoom.
+      // More zoom => smaller circles, to reduce overlap when zoomed into dense regions.
+      function radiusForZoom(sizeScale, zoom) {
+        const MIN_RADIUS = 10; // baseline minimum size in pixels
+        const MAX_RADIUS = 40; // maximum size in pixels at world view
+
+        const baseRadius = MIN_RADIUS + sizeScale * (MAX_RADIUS - MIN_RADIUS);
+
+        // As zoom increases above 2, shrink the radius.
+        // You can tweak the 0.25 factor to make shrinking stronger/weaker.
+        const zoomFactor = 1 + Math.max(0, zoom - 2) * 0.25;
+
+        return Math.max(MIN_RADIUS, baseRadius / zoomFactor);
+      }
+
+      function clearDatasetHighlight() {
+        if (!datasetHighlightActive) return;
+        datasetHighlightedCircles.forEach((c) => c.setStyle(baseCircleStyle));
+        datasetHighlightActive = null;
+        datasetHighlightedCircles = [];
+      }
+
+      function highlightDataset(datasetId) {
+        if (!datasetId) return;
+        // Reset any previous highlight
+        clearDatasetHighlight();
+
+        const countries = datasetToCountries[datasetId];
+        if (!countries) return;
+
+        const newlyHighlighted = [];
+        countries.forEach((cc) => {
+          const circles = circlesByCountry[cc] || [];
+          circles.forEach((circle) => {
+            circle.setStyle(hoverCircleStyle);
+            newlyHighlighted.push(circle);
+          });
+        });
+
+        datasetHighlightActive = datasetId;
+        datasetHighlightedCircles = newlyHighlighted;
+      }
+
+      function wireDatasetHoverHandlers(container) {
+        if (!container) return;
+        const items = container.querySelectorAll("li[data-dataset-id]");
+        items.forEach((li) => {
+          const datasetId = li.getAttribute("data-dataset-id");
+          if (!datasetId) return;
+
+          li.addEventListener("mouseenter", () => {
+            highlightDataset(datasetId);
+          });
+
+          li.addEventListener("mouseleave", () => {
+            clearDatasetHighlight();
+          });
+        });
+      }
+
+      function showCountryCollaborations(meta, data) {
+        collabPanel.hidden = false;
+        collabPanelTitle.textContent = `${meta.name} collaborations`;
+
+        if (data.length) {
+          collabPanelSummary.textContent = `${data.length} dataset collaboration${
+            data.length === 1 ? "" : "s"
+          } with Politecnico di Torino.`;
+        } else {
+          collabPanelSummary.textContent = "No collaborations recorded yet.";
+        }
+
+        collabPanelList.innerHTML = "";
+
+        if (!data.length) {
+          clearDatasetHighlight();
+          return;
+        }
+
+        data.forEach((item) => {
+          const url = item.dataset_id || "";
+          const title = item.title || "Dataset";
+          const partner = item.partner || "Unknown partner";
+          const year = item.year || "";
+
+          const li = document.createElement("li");
+          li.setAttribute("data-dataset-id", url);
+          li.innerHTML = `
+            <div>
+              <strong>${partner}</strong>
+              <span>${title}</span>
+              <small>${year}</small>
+            </div>
+            ${
+              url
+                ? `<a class="collab-link" href="${url}" target="_blank" rel="noopener noreferrer">View</a>`
+                : ""
+            }
+          `;
+          collabPanelList.appendChild(li);
+        });
+
+        wireDatasetHoverHandlers(collabPanelList);
+      }
+
+      collabPanelClose.addEventListener("click", () => {
+        collabPanel.hidden = true;
+        clearDatasetHighlight();
+      });
+
+      // Make the panel draggable via the header
+      const collabPanelHeader = collabPanel.querySelector(".collab-panel-header");
+      let isDragging = false;
+      let dragStartX = 0;
+      let dragStartY = 0;
+      let panelStartX = 0;
+      let panelStartY = 0;
+
+      collabPanelHeader.addEventListener("mousedown", (e) => {
+        // Don't start dragging if clicking the close button
+        if (e.target === collabPanelClose || collabPanelClose.contains(e.target)) {
+          return;
+        }
+
+        isDragging = true;
+        collabPanel.classList.add("dragging");
+
+        // Get initial mouse position
+        dragStartX = e.clientX;
+        dragStartY = e.clientY;
+
+        // Get initial panel position
+        const rect = collabPanel.getBoundingClientRect();
+        panelStartX = rect.left;
+        panelStartY = rect.top;
+
+        e.preventDefault();
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
+
+        // Calculate new position
+        const deltaX = e.clientX - dragStartX;
+        const deltaY = e.clientY - dragStartY;
+
+        const newX = panelStartX + deltaX;
+        const newY = panelStartY + deltaY;
+
+        // Constrain to viewport bounds
+        const maxX = window.innerWidth - collabPanel.offsetWidth;
+        const maxY = window.innerHeight - collabPanel.offsetHeight;
+
+        const constrainedX = Math.max(0, Math.min(newX, maxX));
+        const constrainedY = Math.max(0, Math.min(newY, maxY));
+
+        collabPanel.style.left = `${constrainedX}px`;
+        collabPanel.style.top = `${constrainedY}px`;
+        collabPanel.style.right = "auto";
+      });
+
+      document.addEventListener("mouseup", () => {
+        if (isDragging) {
+          isDragging = false;
+          collabPanel.classList.remove("dragging");
+        }
+      });
+
+      // Load real collaborations derived from polito_works.json
+      fetch("collaborations.json")
+        .then((resp) => resp.json())
+        .then((countries) => {
+          if (!Array.isArray(countries) || countries.length === 0) {
+            infoPanel.textContent = "No collaborations found – run the data pipeline first.";
+            return;
+          }
+
+          const maxCollaborations = Math.max(
+            ...countries.map((c) => c.collaborations_count || 0)
+          );
+
+          // Build a map from dataset_id to all country codes involved in that dataset
+          countries.forEach((entry) => {
+            const cc = entry.country_code;
+            (entry.collaborations || []).forEach((item) => {
+              const id = item.dataset_id;
+              if (!id) return;
+              if (!datasetToCountries[id]) {
+                datasetToCountries[id] = new Set();
+              }
+              datasetToCountries[id].add(cc);
+            });
+          });
+
+          countries.forEach((entry) => {
+            const meta = countryMetaFromCode(entry.country_code);
+            const collabCount = entry.collaborations_count || 0;
+            if (!collabCount) return;
+
+            const sizeScale = collabCount / maxCollaborations;
+
+            // Use a circleMarker whose size is expressed in pixels (not meters)
+            // so we can dynamically adapt it on map zoom events.
+            const circle = L.circleMarker(meta.coords, {
+              radius: 0, // will be set after we know the map zoom
+              ...baseCircleStyle,
+            })
+              .bindTooltip(
+                `<strong>${meta.name}</strong><br/>${collabCount} collaboration${
+                  collabCount === 1 ? "" : "s"
+                }`,
+                {
+                  direction: "top",
+                  offset: [0, -10],
+                  sticky: true,
+                  opacity: 1,
+                  className: "collab-tooltip",
+                }
+              )
+              .addTo(map);
+
+            // Remember this circle so we can update its size on zoom
+            countryCircles.push({ circle, sizeScale, countryCode: entry.country_code });
+
+            if (!circlesByCountry[entry.country_code]) {
+              circlesByCountry[entry.country_code] = [];
+            }
+            circlesByCountry[entry.country_code].push(circle);
+
+            circle.on("mouseover", () => {
+              circle.setStyle(hoverCircleStyle);
+              infoPanel.textContent = `${meta.name}: ${collabCount} collaboration${
+                collabCount === 1 ? "" : "s"
+              }`;
+              infoPanel.classList.add("active");
+              circle.openTooltip();
+            });
+
+            circle.on("mouseout", () => {
+              circle.setStyle(baseCircleStyle);
+              infoPanel.textContent = defaultInfo;
+              infoPanel.classList.remove("active");
+              circle.closeTooltip();
+            });
+
+            circle.on("click", () => {
+              const data = entry.collaborations || [];
+              showCountryCollaborations(meta, data);
+            });
+          });
+
+          // After all circles are created, set their initial radius based on the current zoom
+          function updateCircleSizes() {
+            const zoom = map.getZoom();
+            countryCircles.forEach(({ circle, sizeScale }) => {
+              circle.setRadius(radiusForZoom(sizeScale, zoom));
+            });
+          }
+
+          map.on("zoomend", updateCircleSizes);
+          updateCircleSizes();
+        })
+        .catch(() => {
+          infoPanel.textContent = "Failed to load collaboration data.";
+        });
+    </script>
+  </body>
+</html>
+
