@@ -181,7 +181,7 @@
       const title = document.getElementById("title");
 
       // Load the same collaborations.json used by the map
-      fetch("collaborations.json")
+      fetch("data/collaborations.json")
         .then((resp) => resp.json())
         .then((countries) => {
           if (!Array.isArray(countries) || countries.length === 0) {

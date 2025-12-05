@@ -143,8 +143,8 @@ def build_collaborations(works: List[Dict[str, Any]]) -> Dict[str, Any]:
 
 
 def main() -> None:
-    src = "polito_works.json"
-    out = "collaborations.json"
+    src = "data/polito_works.json"
+    out = "data/collaborations.json"
 
     if not os.path.exists(src):
         raise SystemExit(f"{src} not found – run get_data_from_OpenAlex.py first.")

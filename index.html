@@ -158,12 +158,23 @@
 
       @media (max-width: 900px) {
         .collab-panel {
-          position: absolute;
-          top: 1rem;
+          position: fixed;
+          bottom: 1rem;
+          top: auto;
           left: 1rem;
           right: 1rem;
           width: auto;
           max-height: 260px;
+        }
+
+        .leaflet-control-attribution {
+          position: fixed !important;
+          bottom: 0.5rem !important;
+          left: 1rem !important;
+          right: auto !important;
+          margin: 0 !important;
+          font-size: 0.7rem;
+          z-index: 400;
         }
       }
 
@@ -200,7 +211,7 @@
       }
 
       .collab-popup-list {
-        max-height: 160px;
+        max-height: 400px;
         overflow-y: auto;
         padding-right: 0.1rem;
       }
@@ -211,34 +222,18 @@
         padding: 0;
         display: flex;
         flex-direction: column;
-        gap: 0.35rem;
-      }
-
-      .collab-popup-list li {
-        background: rgba(15, 23, 42, 0.9);
-        border-radius: 0.45rem;
-        padding: 0.4rem 0.5rem;
-        border: 1px solid rgba(148, 163, 184, 0.4);
-        display: flex;
-        justify-content: space-between;
         gap: 0.5rem;
-        font-size: 0.78rem;
-        transition: background 0.2s ease, border-color 0.2s ease;
-        cursor: pointer;
       }
 
-      .collab-popup-list li:hover {
-        background: rgba(14, 165, 233, 0.2);
-        border-color: rgba(14, 165, 233, 0.6);
+      .collab-popup-list li.institution-item {
+        background: transparent;
+        padding: 0;
+        border: none;
+        cursor: default;
       }
 
-      .collab-popup-list li strong {
-        display: block;
-        margin-bottom: 0.15rem;
-      }
-
-      .collab-popup-list li span {
-        opacity: 0.85;
+      .collab-popup-list li.institution-item:hover {
+        background: transparent;
       }
 
       .collab-link {
@@ -253,6 +248,153 @@
       }
 
       .collab-link:hover {
+        background: rgba(248, 250, 252, 0.2);
+        color: #fcd34d;
+      }
+
+      .institution-item {
+        background: rgba(15, 23, 42, 0.9);
+        border-radius: 0.45rem;
+        border: 1px solid rgba(148, 163, 184, 0.4);
+        margin-bottom: 0.5rem;
+        overflow: hidden;
+        transition: border-color 0.2s ease;
+      }
+
+      .institution-item:hover {
+        border-color: rgba(14, 165, 233, 0.6);
+      }
+
+      .institution-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0.6rem;
+        cursor: pointer;
+        user-select: none;
+        transition: background 0.2s ease;
+      }
+
+      .institution-header:hover {
+        background: rgba(14, 165, 233, 0.1);
+      }
+
+      .institution-header-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+
+      .institution-name {
+        font-weight: 600;
+        font-size: 0.8rem;
+        color: #f8fafc;
+      }
+
+      .institution-count {
+        font-size: 0.7rem;
+        color: #9ca3af;
+      }
+
+      .institution-toggle {
+        background: transparent;
+        border: 1px solid rgba(248, 250, 252, 0.3);
+        color: #f8fafc;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 0.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 0.7rem;
+        transition: all 0.2s ease;
+        flex-shrink: 0;
+      }
+
+      .institution-toggle:hover {
+        background: rgba(248, 250, 252, 0.1);
+        border-color: rgba(248, 250, 252, 0.5);
+      }
+
+      .institution-datasets {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background: rgba(15, 23, 42, 0.95);
+      }
+
+      .institution-item.expanded .institution-datasets {
+        max-height: 1000px;
+      }
+
+      .institution-item.expanded .institution-toggle {
+        transform: rotate(90deg);
+      }
+
+      .dataset-item {
+        padding: 0.4rem 0.6rem 0.4rem 1.2rem;
+        border-top: 1px solid rgba(148, 163, 184, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0.5rem;
+        transition: background 0.2s ease;
+      }
+
+      .collab-panel-list.show-all-datasets > .dataset-item:first-child {
+        border-top: none;
+      }
+
+      .collab-panel-list.show-all-datasets > .dataset-item {
+        background: rgba(15, 23, 42, 0.9);
+        border-radius: 0.45rem;
+        border: 1px solid rgba(148, 163, 184, 0.4);
+        margin-bottom: 0.5rem;
+        padding-left: 0.6rem;
+      }
+
+      .collab-panel-list.show-all-datasets > .dataset-item:hover {
+        border-color: rgba(14, 165, 233, 0.6);
+      }
+
+      .dataset-item:hover {
+        background: rgba(14, 165, 233, 0.1);
+      }
+
+      .dataset-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.15rem;
+      }
+
+      .dataset-title {
+        font-size: 0.75rem;
+        color: #e5e7eb;
+        line-height: 1.3;
+      }
+
+      .dataset-year {
+        font-size: 0.7rem;
+        color: #9ca3af;
+      }
+
+      .dataset-view-btn {
+        align-self: flex-start;
+        text-decoration: none;
+        border: 1px solid rgba(248, 250, 252, 0.4);
+        padding: 0.2rem 0.5rem;
+        border-radius: 999px;
+        font-size: 0.7rem;
+        color: #f8fafc;
+        transition: background 0.2s ease, color 0.2s ease;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .dataset-view-btn:hover {
         background: rgba(248, 250, 252, 0.2);
         color: #fcd34d;
       }
@@ -431,16 +573,16 @@
 
       function wireDatasetHoverHandlers(container) {
         if (!container) return;
-        const items = container.querySelectorAll("li[data-dataset-id]");
-        items.forEach((li) => {
-          const datasetId = li.getAttribute("data-dataset-id");
+        const items = container.querySelectorAll(".dataset-item[data-dataset-id]");
+        items.forEach((item) => {
+          const datasetId = item.getAttribute("data-dataset-id");
           if (!datasetId) return;
 
-          li.addEventListener("mouseenter", () => {
+          item.addEventListener("mouseenter", () => {
             highlightDataset(datasetId);
           });
 
-          li.addEventListener("mouseleave", () => {
+          item.addEventListener("mouseleave", () => {
             clearDatasetHighlight();
           });
         });
@@ -448,45 +590,202 @@
 
       function showCountryCollaborations(meta, data) {
         collabPanel.hidden = false;
-        collabPanelTitle.textContent = `${meta.name} collaborations`;
+        const isAllDatasets = meta.name === "Politecnico di Torino";
+        
+        if (isAllDatasets) {
+          collabPanelTitle.textContent = "All Politecnico di Torino Datasets";
+        } else {
+          collabPanelTitle.textContent = `${meta.name} collaborations`;
+        }
 
         if (data.length) {
-          collabPanelSummary.textContent = `${data.length} dataset collaboration${
-            data.length === 1 ? "" : "s"
-          } with Politecnico di Torino.`;
+          if (isAllDatasets) {
+            const soloCount = data.filter(d => d.partner === "Politecnico di Torino only").length;
+            const collabCount = data.length - soloCount;
+            collabPanelSummary.textContent = `${data.length} total dataset${
+              data.length === 1 ? "" : "s"
+            } (${collabCount} collaboration${collabCount === 1 ? "" : "s"}, ${soloCount} solo Politecnico${soloCount === 1 ? "" : ""}).`;
+          } else {
+            collabPanelSummary.textContent = `${data.length} dataset collaboration${
+              data.length === 1 ? "" : "s"
+            } with Politecnico di Torino.`;
+          }
         } else {
-          collabPanelSummary.textContent = "No collaborations recorded yet.";
+          collabPanelSummary.textContent = "No datasets recorded yet.";
         }
 
         collabPanelList.innerHTML = "";
+        
+        // Add class to indicate all datasets view (no grouping)
+        if (isAllDatasets) {
+          collabPanelList.classList.add("show-all-datasets");
+        } else {
+          collabPanelList.classList.remove("show-all-datasets");
+        }
 
         if (!data.length) {
           clearDatasetHighlight();
           return;
         }
 
-        data.forEach((item) => {
-          const url = item.dataset_id || "";
-          const title = item.title || "Dataset";
-          const partner = item.partner || "Unknown partner";
-          const year = item.year || "";
+        // For Politecnico all datasets view, show datasets directly without grouping
+        if (isAllDatasets) {
+          // Sort datasets by year (descending), then by title
+          const sortedData = [...data].sort((a, b) => {
+            const yearA = a.year || 0;
+            const yearB = b.year || 0;
+            if (yearB !== yearA) return yearB - yearA;
+            return (a.title || "").localeCompare(b.title || "");
+          });
 
-          const li = document.createElement("li");
-          li.setAttribute("data-dataset-id", url);
-          li.innerHTML = `
-            <div>
-              <strong>${partner}</strong>
-              <span>${title}</span>
-              <small>${year}</small>
-            </div>
-            ${
-              url
-                ? `<a class="collab-link" href="${url}" target="_blank" rel="noopener noreferrer">View</a>`
-                : ""
+          sortedData.forEach((item) => {
+            const url = item.dataset_id || "";
+            const title = item.title || "Dataset";
+            const year = item.year || "";
+
+            const datasetItem = document.createElement("li");
+            datasetItem.className = "dataset-item";
+            datasetItem.setAttribute("data-dataset-id", url);
+            
+            const datasetContent = document.createElement("div");
+            datasetContent.className = "dataset-content";
+            
+            const datasetTitle = document.createElement("div");
+            datasetTitle.className = "dataset-title";
+            datasetTitle.textContent = title;
+            
+            const datasetYear = document.createElement("div");
+            datasetYear.className = "dataset-year";
+            datasetYear.textContent = year;
+            
+            datasetContent.appendChild(datasetTitle);
+            if (year) {
+              datasetContent.appendChild(datasetYear);
             }
-          `;
-          collabPanelList.appendChild(li);
-        });
+            
+            const viewBtn = document.createElement("a");
+            if (url) {
+              viewBtn.href = url;
+              viewBtn.target = "_blank";
+              viewBtn.rel = "noopener noreferrer";
+              viewBtn.className = "dataset-view-btn";
+              viewBtn.textContent = "View";
+            }
+            
+            datasetItem.appendChild(datasetContent);
+            if (url) {
+              datasetItem.appendChild(viewBtn);
+            }
+            
+            collabPanelList.appendChild(datasetItem);
+          });
+        } else {
+          // Group collaborations by institution/partner for country views
+          const institutionsMap = {};
+          data.forEach((item) => {
+            const partner = item.partner || "Unknown partner";
+            if (!institutionsMap[partner]) {
+              institutionsMap[partner] = [];
+            }
+            institutionsMap[partner].push(item);
+          });
+
+          // Create UI for each institution
+          Object.keys(institutionsMap).sort().forEach((partner) => {
+            const datasets = institutionsMap[partner];
+            const datasetCount = datasets.length;
+
+            const institutionItem = document.createElement("li");
+            institutionItem.className = "institution-item";
+            
+            const institutionHeader = document.createElement("div");
+            institutionHeader.className = "institution-header";
+            
+            const headerContent = document.createElement("div");
+            headerContent.className = "institution-header-content";
+            
+            const institutionName = document.createElement("div");
+            institutionName.className = "institution-name";
+            institutionName.textContent = partner;
+            
+            const institutionCount = document.createElement("div");
+            institutionCount.className = "institution-count";
+            institutionCount.textContent = `${datasetCount} dataset${datasetCount === 1 ? "" : "s"}`;
+            
+            headerContent.appendChild(institutionName);
+            headerContent.appendChild(institutionCount);
+            
+            const toggleBtn = document.createElement("button");
+            toggleBtn.className = "institution-toggle";
+            toggleBtn.textContent = "›";
+            toggleBtn.setAttribute("aria-label", `Toggle ${partner} datasets`);
+            
+            institutionHeader.appendChild(headerContent);
+            institutionHeader.appendChild(toggleBtn);
+            
+            const datasetsContainer = document.createElement("div");
+            datasetsContainer.className = "institution-datasets";
+            
+            const datasetsList = document.createElement("ul");
+            datasetsList.style.listStyle = "none";
+            datasetsList.style.margin = "0";
+            datasetsList.style.padding = "0";
+            
+            datasets.forEach((item) => {
+              const url = item.dataset_id || "";
+              const title = item.title || "Dataset";
+              const year = item.year || "";
+
+              const datasetItem = document.createElement("li");
+              datasetItem.className = "dataset-item";
+              datasetItem.setAttribute("data-dataset-id", url);
+              
+              const datasetContent = document.createElement("div");
+              datasetContent.className = "dataset-content";
+              
+              const datasetTitle = document.createElement("div");
+              datasetTitle.className = "dataset-title";
+              datasetTitle.textContent = title;
+              
+              const datasetYear = document.createElement("div");
+              datasetYear.className = "dataset-year";
+              datasetYear.textContent = year;
+              
+              datasetContent.appendChild(datasetTitle);
+              if (year) {
+                datasetContent.appendChild(datasetYear);
+              }
+              
+              const viewBtn = document.createElement("a");
+              if (url) {
+                viewBtn.href = url;
+                viewBtn.target = "_blank";
+                viewBtn.rel = "noopener noreferrer";
+                viewBtn.className = "dataset-view-btn";
+                viewBtn.textContent = "View";
+              }
+              
+              datasetItem.appendChild(datasetContent);
+              if (url) {
+                datasetItem.appendChild(viewBtn);
+              }
+              
+              datasetsList.appendChild(datasetItem);
+            });
+            
+            datasetsContainer.appendChild(datasetsList);
+            
+            institutionItem.appendChild(institutionHeader);
+            institutionItem.appendChild(datasetsContainer);
+            
+            // Toggle expand/collapse on header click
+            institutionHeader.addEventListener("click", () => {
+              institutionItem.classList.toggle("expanded");
+            });
+            
+            collabPanelList.appendChild(institutionItem);
+          });
+        }
 
         wireDatasetHoverHandlers(collabPanelList);
       }
@@ -554,8 +853,116 @@
         }
       });
 
+      // Create a custom icon for Turin marker using the position image
+      const turinIcon = L.icon({
+        iconUrl: "assets/position-12.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32],
+      });
+
+      // Turin coordinates
+      const TURIN_COORDS = [45.0703, 7.6868];
+
+      // Function to load all datasets including solo Politecnico ones
+      function loadAllDatasets() {
+        // First, collect all datasets from collaborations
+        const allDatasetsMap = new Map();
+        
+        // We'll fetch collaborations.json and also try to fetch all_datasets.json if available
+        return Promise.all([
+          fetch("data/collaborations.json").then((r) => r.json()).catch(() => []),
+          fetch("data/all_datasets.json").then((r) => r.json()).catch(() => null),
+        ]).then(([collaborations, allDatasets]) => {
+          // Collect all unique datasets from collaborations
+          collaborations.forEach((country) => {
+            (country.collaborations || []).forEach((collab) => {
+              const id = collab.dataset_id;
+              if (id && !allDatasetsMap.has(id)) {
+                allDatasetsMap.set(id, {
+                  dataset_id: id,
+                  title: collab.title,
+                  year: collab.year,
+                  partner: collab.partner,
+                });
+              }
+            });
+          });
+
+          // If all_datasets.json exists, add solo Politecnico datasets
+          if (allDatasets && Array.isArray(allDatasets)) {
+            allDatasets.forEach((dataset) => {
+              const id = dataset.dataset_id;
+              if (id && !allDatasetsMap.has(id)) {
+                // This dataset is not in collaborations, so it's solo Politecnico
+                allDatasetsMap.set(id, {
+                  dataset_id: id,
+                  title: dataset.title,
+                  year: dataset.year,
+                  partner: "Politecnico di Torino only",
+                });
+              }
+            });
+          }
+
+          return Array.from(allDatasetsMap.values());
+        });
+      }
+
+      // Function to show all datasets in the collaboration panel
+      function showAllDatasets() {
+        loadAllDatasets().then((allDatasets) => {
+          const meta = { name: "Politecnico di Torino" };
+          showCountryCollaborations(meta, allDatasets);
+        }).catch(() => {
+          // Fallback: show only collaboration datasets
+          fetch("data/collaborations.json")
+            .then((resp) => resp.json())
+            .then((countries) => {
+              const allCollabDatasets = [];
+              countries.forEach((country) => {
+                (country.collaborations || []).forEach((collab) => {
+                  allCollabDatasets.push(collab);
+                });
+              });
+              const meta = { name: "Politecnico di Torino" };
+              showCountryCollaborations(meta, allCollabDatasets);
+            });
+        });
+      }
+
+      // Add Turin marker
+      const turinMarker = L.marker(TURIN_COORDS, { icon: turinIcon })
+        .addTo(map)
+        .bindTooltip(
+          "<strong>Politecnico di Torino</strong><br/>Click to view all datasets",
+          {
+            direction: "top",
+            offset: [0, -10],
+            sticky: true,
+            opacity: 1,
+            className: "collab-tooltip",
+          }
+        );
+
+      turinMarker.on("click", () => {
+        showAllDatasets();
+      });
+
+      turinMarker.on("mouseover", () => {
+        infoPanel.textContent = "Politecnico di Torino: Click to view all datasets";
+        infoPanel.classList.add("active");
+        turinMarker.openTooltip();
+      });
+
+      turinMarker.on("mouseout", () => {
+        infoPanel.textContent = defaultInfo;
+        infoPanel.classList.remove("active");
+        turinMarker.closeTooltip();
+      });
+
       // Load real collaborations derived from polito_works.json
-      fetch("collaborations.json")
+      fetch("data/collaborations.json")
         .then((resp) => resp.json())
         .then((countries) => {
           if (!Array.isArray(countries) || countries.length === 0) {
