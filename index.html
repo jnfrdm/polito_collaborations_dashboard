@@ -132,6 +132,16 @@
         justify-content: center;
         font-size: 1.1rem;
         flex-shrink: 0;
+        transition: transform 0.2s ease;
+      }
+
+      .collab-panel.collapsed .collab-panel-close {
+        transform: rotate(180deg);
+      }
+
+      .collab-panel.collapsed .collab-panel-summary,
+      .collab-panel.collapsed .collab-popup-list {
+        display: none;
       }
 
       .collab-panel.dragging {
@@ -408,16 +418,16 @@
     </header>
     <main>
       <div id="map" role="region" aria-label="Interactive world map"></div>
-      <aside id="collab-panel" class="collab-panel" hidden>
+      <aside id="collab-panel" class="collab-panel">
         <div class="collab-panel-header">
           <h2 id="collab-panel-title">Collaborations</h2>
           <button
             id="collab-panel-close"
             class="collab-panel-close"
             type="button"
-            aria-label="Close collaboration list"
+            aria-label="Toggle collaboration panel"
           >
-            ×
+            ▼
           </button>
         </div>
         <p id="collab-panel-summary" class="collab-panel-summary"></p>
@@ -445,48 +455,74 @@
           'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
       }).addTo(map);
 
-      // Map from ISO country code to display name and rough centroid coordinates
-      const COUNTRY_META = {
-        IT: { name: "Italy", coords: [41.9, 12.5] },
-        FR: { name: "France", coords: [46.2, 2.2] },
-        DE: { name: "Germany", coords: [52.52, 13.4] },
-        US: { name: "United States", coords: [38.9, -77.03] },
-        GB: { name: "United Kingdom", coords: [51.5, -0.12] },
-        ES: { name: "Spain", coords: [40.4, -3.7] },
-        NL: { name: "Netherlands", coords: [52.37, 4.9] },
-        SE: { name: "Sweden", coords: [59.3, 18.1] },
-        NO: { name: "Norway", coords: [59.9, 10.8] },
-        CH: { name: "Switzerland", coords: [46.9, 7.4] },
-        AT: { name: "Austria", coords: [48.2, 16.4] },
-        BE: { name: "Belgium", coords: [50.8, 4.4] },
-        PT: { name: "Portugal", coords: [38.7, -9.1] },
-        GR: { name: "Greece", coords: [37.9, 23.7] },
-        DK: { name: "Denmark", coords: [55.7, 12.6] },
-        FI: { name: "Finland", coords: [60.2, 24.9] },
-        PL: { name: "Poland", coords: [52.2, 21.0] },
-        CZ: { name: "Czech Republic", coords: [50.1, 14.4] },
-        HU: { name: "Hungary", coords: [47.5, 19.0] },
-        RO: { name: "Romania", coords: [44.4, 26.1] },
-        BG: { name: "Bulgaria", coords: [42.7, 23.3] },
-        RU: { name: "Russia", coords: [55.7, 37.6] },
-        CN: { name: "China", coords: [39.9, 116.4] },
-        JP: { name: "Japan", coords: [35.7, 139.7] },
-        IN: { name: "India", coords: [28.6, 77.2] },
-        BR: { name: "Brazil", coords: [-15.8, -47.9] },
-        AR: { name: "Argentina", coords: [-34.6, -58.4] },
-        CA: { name: "Canada", coords: [45.4, -75.7] },
-        AU: { name: "Australia", coords: [-35.3, 149.1] },
-        ZA: { name: "South Africa", coords: [-25.7, 28.2] },
-        KE: { name: "Kenya", coords: [-1.29, 36.82] },
-        EG: { name: "Egypt", coords: [30.0, 31.2] },
-        TR: { name: "Türkiye", coords: [39.9, 32.9] },
-        MX: { name: "Mexico", coords: [19.4, -99.1] },
-        CL: { name: "Chile", coords: [-33.4, -70.7] },
-        SG: { name: "Singapore", coords: [1.3521, 103.8198] },
-        LT: { name: "Lithuania", coords: [54.6872, 25.2797] },
-        LV: { name: "Latvia", coords: [56.9496, 24.1052] },
-        IL: { name: "Israel", coords: [31.7683, 35.2137] },
-      };
+      // Map from ISO country code to display name and coordinates
+      // This will be populated from all_country_codes.csv
+      let COUNTRY_META = {};
+
+      // Load country codes from CSV and build COUNTRY_META
+      function loadCountryMeta() {
+        return fetch("data/all_country_codes.csv")
+          .then((response) => response.text())
+          .then((csvText) => {
+            const lines = csvText.trim().split("\n");
+            if (lines.length < 2) return; // Need at least header + one data row
+            
+            const headers = lines[0].split(",").map((h) => h.trim());
+            
+            // Find column indices
+            const countryIdx = headers.indexOf("country");
+            const nameIdx = headers.indexOf("name");
+            const latIdx = headers.indexOf("latitude");
+            const lngIdx = headers.indexOf("longitude");
+
+            if (countryIdx === -1 || nameIdx === -1 || latIdx === -1 || lngIdx === -1) {
+              console.error("Missing required columns in country codes CSV");
+              return;
+            }
+
+            // Parse CSV and build COUNTRY_META
+            for (let i = 1; i < lines.length; i++) {
+              const line = lines[i].trim();
+              if (!line) continue;
+
+              // Simple CSV parsing - split by comma, handle quoted fields
+              const values = [];
+              let current = "";
+              let inQuotes = false;
+              
+              for (let j = 0; j < line.length; j++) {
+                const char = line[j];
+                if (char === '"') {
+                  inQuotes = !inQuotes;
+                } else if (char === "," && !inQuotes) {
+                  values.push(current.trim());
+                  current = "";
+                } else {
+                  current += char;
+                }
+              }
+              values.push(current.trim());
+
+              if (values.length > Math.max(countryIdx, nameIdx, latIdx, lngIdx)) {
+                const code = values[countryIdx]?.trim();
+                const name = values[nameIdx]?.trim();
+                const lat = parseFloat(values[latIdx]);
+                const lng = parseFloat(values[lngIdx]);
+
+                if (code && name && !isNaN(lat) && !isNaN(lng)) {
+                  COUNTRY_META[code] = {
+                    name: name,
+                    coords: [lat, lng], // Leaflet format: [latitude, longitude]
+                  };
+                }
+              }
+            }
+          })
+          .catch((error) => {
+            console.error("Failed to load country codes:", error);
+            // Fallback to empty object - countryMetaFromCode will handle missing codes
+          });
+      }
 
       function countryMetaFromCode(code) {
         if (COUNTRY_META[code]) return COUNTRY_META[code];
@@ -590,6 +626,8 @@
 
       function showCountryCollaborations(meta, data) {
         collabPanel.hidden = false;
+        collabPanel.classList.remove("collapsed");
+        collabPanelClose.setAttribute("aria-label", "Collapse collaboration panel");
         const isAllDatasets = meta.name === "Politecnico di Torino";
         
         if (isAllDatasets) {
@@ -791,8 +829,12 @@
       }
 
       collabPanelClose.addEventListener("click", () => {
-        collabPanel.hidden = true;
-        clearDatasetHighlight();
+        collabPanel.classList.toggle("collapsed");
+        const isCollapsed = collabPanel.classList.contains("collapsed");
+        collabPanelClose.setAttribute("aria-label", isCollapsed ? "Expand collaboration panel" : "Collapse collaboration panel");
+        if (isCollapsed) {
+          clearDatasetHighlight();
+        }
       });
 
       // Make the panel draggable via the header
@@ -961,9 +1003,12 @@
         turinMarker.closeTooltip();
       });
 
-      // Load real collaborations derived from polito_works.json
-      fetch("data/collaborations.json")
-        .then((resp) => resp.json())
+      // Load country metadata first, then load collaborations
+      loadCountryMeta()
+        .then(() => {
+          // Load real collaborations derived from polito_works.json
+          return fetch("data/collaborations.json").then((resp) => resp.json());
+        })
         .then((countries) => {
           if (!Array.isArray(countries) || countries.length === 0) {
             infoPanel.textContent = "No collaborations found – run the data pipeline first.";
@@ -988,7 +1033,18 @@
           });
 
           countries.forEach((entry) => {
-            const meta = countryMetaFromCode(entry.country_code);
+            // Use country info from entry if available (enriched by build_collaborations.py),
+            // otherwise fall back to COUNTRY_META
+            let meta;
+            if (entry.country && entry.country.coords && entry.country.coords.length === 2) {
+              meta = {
+                name: entry.country.name || entry.country_code,
+                coords: entry.country.coords, // Already in [lat, lng] format
+              };
+            } else {
+              meta = countryMetaFromCode(entry.country_code);
+            }
+            
             const collabCount = entry.collaborations_count || 0;
             if (!collabCount) return;
 
@@ -1054,6 +1110,9 @@
 
           map.on("zoomend", updateCircleSizes);
           updateCircleSizes();
+
+          // Show all datasets in the collaboration panel on page load
+          showAllDatasets();
         })
         .catch(() => {
           infoPanel.textContent = "Failed to load collaboration data.";

@@ -1,7 +1,852 @@
 [
   {
+    "dataset_id": "https://openalex.org/W7123248762",
+    "title": "Water vapour-Calcium Alginate equilibrium isotherm",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7123307095",
+    "title": "Water vapour-Calcium Alginate equilibrium isotherm",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7118320597",
+    "title": "Robustness evaluation of existing valuable structures The case study of P.L. Nervi autogrill Motta on A4 motorway in Italy",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7119225264",
+    "title": "Robustness evaluation of existing valuable structures The case study of P.L. Nervi autogrill Motta on A4 motorway in Italy",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124252550",
+    "title": "Research data supporting: \"Supramolecular cooperativity through the lens of enhanced sampling molecular dynamics\"",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124310030",
+    "title": "Research data supporting: \"Supramolecular cooperativity through the lens of enhanced sampling molecular dynamics\"",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124252831",
+    "title": "Framingham Heart Study musculoskeletal models updated to OpenSim 4.x",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124256153",
+    "title": "Framingham Heart Study musculoskeletal models updated to OpenSim 4.x",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124264360",
+    "title": "Electron-Density Profiles of Glyceryl Behenate and Related Lipid Blends upon Melting derived from Synchrotron Small Angle X-ray Scattering Measurements",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7118118675",
+    "title": "Data for: Angular velocity of Kolmogorov-scale fibers as proxy for turbulent dissipation",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7118121046",
+    "title": "Data for: Angular velocity of Kolmogorov-scale fibers as proxy for turbulent dissipation",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124163491",
+    "title": "2WFSS25-Gender-Bias-in-Generative-AI-assisted-Recruitment-Processes",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124167819",
+    "title": "2WFSS25-Gender-Bias-in-Generative-AI-assisted-Recruitment-Processes",
+    "year": 2026
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393684074",
+    "title": "Wind tunnel measurements of concentration and velocity in urban geometries with trees",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7110873970",
+    "title": "THOR-REG - PM-SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7111239293",
+    "title": "THOR-REG - PM-SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7111173846",
+    "title": "THOR-FBS - asymmetric PM-SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7111413407",
+    "title": "THOR-FBS - asymmetric PM-SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106268243",
+    "title": "Singers' performance in contemporary churches within 3rd-order Ambisonic auralization: objective and subjective data from amateur singers",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106416718",
+    "title": "Singers' performance in contemporary churches within 3rd-order Ambisonic auralization: objective and subjective data from amateur singers",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7103978771",
+    "title": "Research data supporting: \"Maximum Information Extraction From Noisy Data Via Shannon Entropy Minimization\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104977127",
+    "title": "Research data supporting: \"Controlling the Assembly of Ureido‐Pyrimidinone Supramolecular Monomers by Tuning the Hydrophilic‐Hydrophobic Balance\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7105204715",
+    "title": "Research data supporting: \"Controlling the Assembly of Ureido‐Pyrimidinone Supramolecular Monomers by Tuning the Hydrophilic‐Hydrophobic Balance\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115684459",
+    "title": "RawP-SPM - SPM motor model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115701295",
+    "title": "RawP-SPM - SPM motor model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115720845",
+    "title": "RawP-REG - SyR Machine Model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115721324",
+    "title": "RawP-REG - SyR Machine Model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115715844",
+    "title": "RawP-OPT - optimized SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115739102",
+    "title": "RawP-OPT - optimized SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115682332",
+    "title": "RawP-FBS - asymmetric SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115730443",
+    "title": "RawP-FBS - asymmetric SyR machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108690775",
+    "title": "Random sequential adsorption of Pickering particles onto spherical emulsion droplet surfaces",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108737816",
+    "title": "Random sequential adsorption of Pickering particles onto spherical emulsion droplet surfaces",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393498794",
+    "title": "RPC-Net Dataset. Simultaneous HD-sEMG Recordings on the Forearm and angles of a 29-DOF Hand Kinematic Model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106018613",
+    "title": "RECON - Cell-scale atmospheric moisture flows dataset reconciled with ERA5 reanalysis",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107965185",
+    "title": "Pyroduct Digital Catalog",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104366484",
+    "title": "Pair-breaking as the fundamental limit to persistent-current stabilization in fermionic superfluids: reproducibility packs",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104399013",
+    "title": "Pair-breaking as the fundamental limit to persistent-current stabilization in fermionic superfluids: reproducibility packs",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108212030",
+    "title": "PEIC_PM_V12 - multi-phase IPM machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108221623",
+    "title": "PEIC_PM_V12 - multi-phase IPM machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108707338",
+    "title": "PEIC_PM_B12 - multi-phase IPM machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108717401",
+    "title": "PEIC_PM_B12 - multi-phase IPM machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7116083071",
+    "title": "NIKA: Benchmarking AI Agents for Network Incident Diagnosis and Troubleshooting",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7116145860",
+    "title": "NIKA: Benchmarking AI Agents for Network Incident Diagnosis and Troubleshooting",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106223320",
+    "title": "Multiphysics Datasets for the Data-Driven Modeling of Traction Electric Motors",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106291993",
+    "title": "Multiphysics Datasets for the Data-Driven Modeling of Traction Electric Motors",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7114914563",
+    "title": "KPI measurements of TrialsNet use cases",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7103898696",
+    "title": "KPI measurements of TrialsNet Open Call use cases",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7103900971",
+    "title": "KPI measurements of TrialsNet Open Call use cases",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7114908995",
+    "title": "KPI measurements of TrialsNet Open Call use cases",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104877751",
+    "title": "Integrating Satellite Data into Meso-scale Habitat Modeling for Non-perennial Rivers and Streams",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104830122",
+    "title": "Impress school: Correlative orientation information on printed polymers and during thermal processing",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7119475396",
+    "title": "IPM 2-in-1 Electric Drive Unit Characterization and Efficiency Data",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107953021",
+    "title": "INRIM_Brand1_60F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107965343",
+    "title": "INRIM_Brand1_60F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107961661",
+    "title": "INRIM_Brand1_60F_2_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107962531",
+    "title": "INRIM_Brand1_60F_2_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107943775",
+    "title": "INRIM_Brand1_60F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107957304",
+    "title": "INRIM_Brand1_60F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107960026",
+    "title": "INRIM_Brand1_400F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107969761",
+    "title": "INRIM_Brand1_400F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107958689",
+    "title": "INRIM_Brand1_400F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107962802",
+    "title": "INRIM_Brand1_400F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107970650",
+    "title": "INRIM_Brand1_25F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107977906",
+    "title": "INRIM_Brand1_25F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107952438",
+    "title": "INRIM_Brand1_25F_2_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107956703",
+    "title": "INRIM_Brand1_25F_2_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107951589",
+    "title": "INRIM_Brand1_25F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107971101",
+    "title": "INRIM_Brand1_25F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107956143",
+    "title": "INRIM_Brand1_10F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107961813",
+    "title": "INRIM_Brand1_10F_3_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107956729",
+    "title": "INRIM_Brand1_10F_2_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107989313",
+    "title": "INRIM_Brand1_10F_2_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107948621",
+    "title": "INRIM_Brand1_10F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107969995",
+    "title": "INRIM_Brand1_10F_1_23C_0k_EDLC_single",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108618597",
+    "title": "ICEM24 - IPM machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108626116",
+    "title": "ICEM24 - IPM machine model",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7109536857",
+    "title": "FoG-STAR: Freezing of Gait Severity, Tasks, Activities, and Ratings",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7105741665",
+    "title": "Flood risk assessment along the River Niger",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7105759686",
+    "title": "Flood risk assessment along the River Niger",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106338085",
+    "title": "Flood risk assessment along the River Niger",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7114805122",
+    "title": "Flood risk assessment along the River Niger",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108222375",
+    "title": "Efficiency and Risk Assessment of Dental Bridge Removal Tools on Implant Abutments - Rawdata",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108229868",
+    "title": "Efficiency and Risk Assessment of Dental Bridge Removal Tools on Implant Abutments - Rawdata",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104382879",
+    "title": "Direct synthesis and Additive Manufacturing of binderless Zeolite A monoliths for efficient CO2 capture",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104395395",
+    "title": "Direct synthesis and Additive Manufacturing of binderless Zeolite A monoliths for efficient CO2 capture",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106209262",
+    "title": "Dataset of Standard and Abrupt Industrial Gestures (DASIG)",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107948702",
+    "title": "Dataset of Experimental Non-Standard Dynamic Hysteresis Loops",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107951858",
+    "title": "Dataset of Experimental Non-Standard Dynamic Hysteresis Loops",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7103892846",
+    "title": "Dataset for \"Modeling of daytime radiative cooling enhanced vapor-compression refrigeration systems\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7103903133",
+    "title": "Dataset for \"Modeling of daytime radiative cooling enhanced vapor-compression refrigeration systems\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7114785556",
+    "title": "Dataset and scripts for \"Revealing the Topological Drivers of Hydraulic Transients in Water Distribution Networks\".",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115003894",
+    "title": "Dataset and Model Artifacts for \"From Execution to Embedding: Enriching Code Representations with Data Difference Signals for Comment Generation\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7115007774",
+    "title": "Dataset and Model Artifacts for \"From Execution to Embedding: Enriching Code Representations with Data Difference Signals for Comment Generation\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394032496",
+    "title": "Database of the Italian disdrometer network (V04)",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124145162",
+    "title": "Database of a 4-km seismic and electric streamer survey: the embankment of the Po River near Crescentino, Piedmont, Italy.",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7124154492",
+    "title": "Database of a 4-km seismic and electric streamer survey: the embankment of the Po River near Crescentino, Piedmont, Italy.",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106804636",
+    "title": "Data published in the preprint \"Enhanced Thermoelectricity in Nanowires with inhomogeneous Helical states\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7106832849",
+    "title": "Data published in the preprint \"Enhanced Thermoelectricity in Nanowires with inhomogeneous Helical states\"",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7114989970",
+    "title": "Data and code for Mapping Data Stewardship in Italy: Findings from the First National Survey",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7114997682",
+    "title": "Data and code for Mapping Data Stewardship in Italy: Findings from the First National Survey",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7110891424",
+    "title": "DESCAM-3D model for ICE-POP 2018",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7111013180",
+    "title": "DESCAM-3D model for ICE-POP 2018",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104037435",
+    "title": "Charting the landscape of Bardeen-Cooper-Schrieffer superconductors in experimentally known compounds",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7104399856",
+    "title": "Blast Action on Civil Engineering Structures: Database and Annexes",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107871635",
+    "title": "Bioresorbable fibers for interstitial null-separation diffuse optical spectroscopy using fast temporal gating",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7107877483",
+    "title": "Bioresorbable fibers for interstitial null-separation diffuse optical spectroscopy using fast temporal gating",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7116967591",
+    "title": "BODIES: BOdy shape parameter and 3D meshes of Individuals basEd on SUPR ( v1.0)",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7116974815",
+    "title": "BODIES: BOdy shape parameter and 3D meshes of Individuals basEd on SUPR ( v1.0)",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108692326",
+    "title": "Airbnb data and SLL_Venezia",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108760408",
+    "title": "Airbnb data and SLL_Venezia",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108666623",
+    "title": "Airbnb data and SLL_Trieste",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108679233",
+    "title": "Airbnb data and SLL_Trieste",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108636883",
+    "title": "Airbnb data and SLL_Roma",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108656999",
+    "title": "Airbnb data and SLL_Roma",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108668707",
+    "title": "Airbnb data and SLL_Reggio di Calabria",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108839646",
+    "title": "Airbnb data and SLL_Reggio di Calabria",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108618228",
+    "title": "Airbnb data and SLL_Palermo",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108642493",
+    "title": "Airbnb data and SLL_Palermo",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108625795",
+    "title": "Airbnb data and SLL_Padova",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108656368",
+    "title": "Airbnb data and SLL_Padova",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108607687",
+    "title": "Airbnb data and SLL_Napoli",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108747147",
+    "title": "Airbnb data and SLL_Napoli",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108752960",
+    "title": "Airbnb data and SLL_Milano",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108753704",
+    "title": "Airbnb data and SLL_Milano",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108679542",
+    "title": "Airbnb data and SLL_Genova",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108709984",
+    "title": "Airbnb data and SLL_Genova",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108606434",
+    "title": "Airbnb data and SLL_Firenze",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108662229",
+    "title": "Airbnb data and SLL_Firenze",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108612515",
+    "title": "Airbnb data and SLL_Catania",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108682730",
+    "title": "Airbnb data and SLL_Catania",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108625454",
+    "title": "Airbnb data and SLL_Cagliari",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108667928",
+    "title": "Airbnb data and SLL_Cagliari",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108685624",
+    "title": "Airbnb data and SLL_Bologna",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108726586",
+    "title": "Airbnb data and SLL_Bologna",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108642960",
+    "title": "Airbnb data and SLL_Bergamo",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108704598",
+    "title": "Airbnb data and SLL_Bergamo",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108614880",
+    "title": "Airbnb data and SLL_Bari",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7108628131",
+    "title": "Airbnb data and SLL_Bari",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7111286578",
+    "title": "AGREE Deliverable 2.1: Published Geo-Database",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W7111390986",
+    "title": "AGREE Deliverable 2.1: Published Geo-Database",
+    "year": 2025
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393647238",
+    "title": "PEDRo: an Event-based Dataset for Person Detection in Robotics",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393450103",
+    "title": "From populations to networks: relating diversity indices and frustration in signed graphs",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393805226",
+    "title": "From populations to networks: relating diversity indices and frustration in signed graphs",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393641832",
+    "title": "FOCA (Italian FlOod and Catchment Atlas)",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393891487",
+    "title": "Enhancing the ReaxFF DFT database",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393586352",
+    "title": "Enhancing the ReaxFF DFT database",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393763256",
+    "title": "Dataset for paper \"Experimental characterization of RF-SQUIDs based Josephson Traveling Wave Parametric Amplifier exploiting Resonant Phase Matching scheme\"",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393877454",
+    "title": "Dataset for paper \"Experimental characterization of RF-SQUIDs based Josephson Traveling Wave Parametric Amplifier exploiting Resonant Phase Matching scheme\"",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393480058",
+    "title": "Data used in the research article \"On the wave attenuation properties of seagrass meadows\" by Vettori et al.",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393677407",
+    "title": "Data used in the research article \"On the wave attenuation properties of seagrass meadows\" by Vettori et al.",
+    "year": 2024
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393644433",
+    "title": "static water contact angle measurements on PBT and PBT coated with series of metallic glass coating",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393770484",
+    "title": "static water contact angle measurements on PBT and PBT coated with series of metallic glass coating",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393516833",
+    "title": "static water contact angle measurements of Ti40Zr10Cu36Pd14 bulk metallic glass and Ti6Al4V surfaces",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393813659",
+    "title": "static water contact angle measurements of Ti40Zr10Cu36Pd14 bulk metallic glass and Ti6Al4V surfaces",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393631429",
+    "title": "small angle x-ray scattering from Zr-Cu-Ag metallic glass coatings",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393821911",
+    "title": "small angle x-ray scattering from Zr-Cu-Ag metallic glass coatings",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393500065",
+    "title": "cytocompatibility analysis of Ti6Al4V and Ti40Zr10Cu36Pd14 bulk metallic glass",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393698719",
+    "title": "cytocompatibility analysis of Ti6Al4V and Ti40Zr10Cu36Pd14 bulk metallic glass",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393565911",
+    "title": "Tomography of memory engrams in self-organizing nanowire connectomes - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393701543",
+    "title": "Tomography of memory engrams in self-organizing nanowire connectomes - Dataset",
+    "year": 2023
+  },
+  {
     "dataset_id": "https://openalex.org/W4394030050",
     "title": "Tomographic volumetric bioprinting of 3D pancreatic cancer models",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393601537",
+    "title": "The Role of Operating Conditions in the Precipitation of Magnesium Hydroxide Hexagonal Platelets Using NaOH Solutions",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394021178",
+    "title": "The Role of Operating Conditions in the Precipitation of Magnesium Hydroxide Hexagonal Platelets Using NaOH Solutions",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393561641",
+    "title": "Structures and data for minimalistic models of cage-like molecules in \"Systematic exploration of accessible topologies of cage molecules via minimalistic models\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393614913",
+    "title": "Structures and data for minimalistic models of cage-like molecules in \"Systematic exploration of accessible topologies of cage molecules via minimalistic models\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393816339",
+    "title": "SamueleMeschini/fuel-cycle: Submitted version",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393499442",
+    "title": "SamueleMeschini/fuel-cycle: Submitted version",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393896015",
+    "title": "SamueleMeschini/fuel-cycle: Submitted version",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393830124",
+    "title": "SE-PQA: a Resource for Personalized Community Question Answering",
     "year": 2023
   },
   {
@@ -10,8 +855,158 @@
     "year": 2023
   },
   {
+    "dataset_id": "https://openalex.org/W4393710195",
+    "title": "Rutor glacier fronts footprints",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393702224",
+    "title": "Rutor Glacier Surface Area - 2021",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393572843",
+    "title": "Rutor Glacier Surface Area - 2021",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393550014",
+    "title": "Resistive switching and role of interfaces in memristive devices based on amorphous NbOx grown by anodic oxidation - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393829138",
+    "title": "Resistive switching and role of interfaces in memristive devices based on amorphous NbOx grown by anodic oxidation - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393897458",
+    "title": "Research data supporting: \"Unsupervised Data-Driven Reconstruction of Molecular Motifs in Simple to Complex Dynamic Micelles\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394020663",
+    "title": "Research data supporting: \"Unsupervised Data-Driven Reconstruction of Molecular Motifs in Simple to Complex Dynamic Micelles\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393467319",
+    "title": "Research data supporting: \"TimeSOAP: Tracking high-dimensional fluctuations in complex molecular systems via time variations of SOAP spectra\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393499606",
+    "title": "Research data supporting: \"TimeSOAP: Tracking high-dimensional fluctuations in complex molecular systems via time variations of SOAP spectra\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393402229",
+    "title": "Research data supporting: \"Self-assembly of cyclic peptide monolayers by hydrophobic supramolecular hinges\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393692027",
+    "title": "Research data supporting: \"Self-assembly of cyclic peptide monolayers by hydrophobic supramolecular hinges\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393752438",
+    "title": "Research data supporting: \"Machine learning of microscopic structure-dynamics relationships in complex molecular systems\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393660979",
+    "title": "Research data supporting: \"Machine learning of microscopic structure-dynamics relationships in complex molecular systems\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393651297",
+    "title": "Research data supporting: \"Innate dynamics and identity crisis of a metal surface unveiled by machine learning of atomic environments\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393832118",
+    "title": "Research data supporting: \"Innate dynamics and identity crisis of a metal surface unveiled by machine learning of atomic environments\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393794543",
+    "title": "Research data supporting: \"Detecting dynamic domains and local fluctuations in complex molecular systems via timelapse neighbors shuffling\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394035751",
+    "title": "Research data supporting: \"Detecting dynamic domains and local fluctuations in complex molecular systems via timelapse neighbors shuffling\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393433984",
+    "title": "Replication data for the LEAP-RE RE4AFAGRI Platform: v0.2",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393484309",
+    "title": "Replication data for the LEAP-RE RE4AFAGRI Platform: v0.2",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393458788",
+    "title": "Replication data for the LEAP-RE RE4AFAGRI Platform: v0.1",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393565147",
+    "title": "Replication data for the LEAP-RE RE4AFAGRI Platform: pre-release version",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393707242",
+    "title": "Replication data for the LEAP-RE RE4AFAGRI Platform: pre-release version",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394049432",
+    "title": "Replication data for the LEAP-RE RE4AFAGRI Platform: pre-release version",
+    "year": 2023
+  },
+  {
     "dataset_id": "https://openalex.org/W4393872839",
     "title": "RPC-Net Dataset. Simultaneous HD-sEMG Recordings on the Forearm and angles of a 24-DOF Hand Kinematic Model",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393879607",
+    "title": "PEDRo: an Event-based Dataset for Person Detection in Robotics",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393813624",
+    "title": "Ortophotos and DSMs UAV",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393721840",
+    "title": "Ortophotos and DSMs UAV",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393688892",
+    "title": "Orthophoto and DSM Rutor Glacier 2021",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393762915",
+    "title": "Orthophoto and DSM Rutor Glacier 2021",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393755959",
+    "title": "Orthophoto and DSM Rutor Glacier 2020",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393633992",
+    "title": "Orthophoto and DSM Rutor Glacier 2020",
     "year": 2023
   },
   {
@@ -20,8 +1015,153 @@
     "year": 2023
   },
   {
+    "dataset_id": "https://openalex.org/W4393468628",
+    "title": "Nuclear Data Uncertainty Propagation for the Molten Salt Fast Reactor Design (dataset)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393595956",
+    "title": "Nuclear Data Uncertainty Propagation for the Molten Salt Fast Reactor Design (dataset)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393591088",
+    "title": "Net load profile for a 10 MWh hydrogen storage system",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393468102",
+    "title": "Net load profile for a 10 MWh hydrogen storage system",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393441162",
+    "title": "Navigating the Complex Solid Form Landscape of the Quercetin Flavonoid Molecule",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393760003",
+    "title": "Navigating the Complex Solid Form Landscape of the Quercetin Flavonoid Molecule",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393422098",
+    "title": "Mixing phenomena in circular and rectangular cross-sectional T-mixers: Experimental and numerical assessment",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393625728",
+    "title": "Mixing phenomena in circular and rectangular cross-sectional T-mixers: Experimental and numerical assessment",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393660544",
+    "title": "Metabolic activity of aggregatibacter on Ti-based bulk metallic glass compared with Ti6Al4V",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393908463",
+    "title": "Metabolic activity of aggregatibacter on Ti-based bulk metallic glass compared with Ti6Al4V",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393479904",
+    "title": "Measurements of type 3 non-uniqueness between 660 °C and 960 °C for 18SIB02 EMPIR project \"Real-K\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393598582",
+    "title": "Measurements of type 3 non-uniqueness between 660 °C and 960 °C for 18SIB02 EMPIR project \"Real-K\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393628720",
+    "title": "Interview Transcriptions related to PhD Thesis \"Degrowth at a Global Scale? Geographies of Chile's Fruit Production and Export between Extractivism and Socio-Ecological Transformation\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394025888",
+    "title": "Interview Transcriptions related to PhD Thesis \"Degrowth at a Global Scale? Geographies of Chile's Fruit Production and Export between Extractivism and Socio-Ecological Transformation\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393462592",
+    "title": "Inductively coupled plasma mass spectrometry of ions released from the coating into LB and DMEM medium",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393884072",
+    "title": "Inductively coupled plasma mass spectrometry of ions released from the coating into LB and DMEM medium",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393477676",
+    "title": "Inductively coupled plasma mass spectrometry of ions released from Ti40Zr10Cu36Pd14 bulk metallic glass",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393701639",
+    "title": "Inductively coupled plasma mass spectrometry of ions released from Ti40Zr10Cu36Pd14 bulk metallic glass",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393825753",
+    "title": "Indirect cytocompatibility and antibacterial properties of Zr-Cu-Ag metallic glass coatings",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393831940",
+    "title": "Indirect cytocompatibility and antibacterial properties of Zr-Cu-Ag metallic glass coatings",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393421931",
+    "title": "In materia implementation strategies of physical reservoir computing with memristive nanonetworks - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393458727",
+    "title": "In materia implementation strategies of physical reservoir computing with memristive nanonetworks - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393595440",
+    "title": "ITALIC: An Italian Intent Classification Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393694100",
+    "title": "ITALIC: An Italian Intent Classification Dataset",
+    "year": 2023
+  },
+  {
     "dataset_id": "https://openalex.org/W4393760362",
     "title": "Hydrometric data in the Rutor proglacial area",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393713604",
+    "title": "Hydrometric data in the Rutor proglacial area",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393653886",
+    "title": "High though-put proteomics analysis of dental plaque cultured on Ti40Zr10Cu36Pd14 bulk metallic glass and Ti6Al4V surface",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393696474",
+    "title": "High though-put proteomics analysis of dental plaque cultured on Ti40Zr10Cu36Pd14 bulk metallic glass and Ti6Al4V surface",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393645552",
+    "title": "H2020 ENODISE: TUD Experimental database configuration B1",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393774575",
+    "title": "H2020 ENODISE: TUD Experimental database configuration B1",
     "year": 2023
   },
   {
@@ -30,8 +1170,108 @@
     "year": 2023
   },
   {
+    "dataset_id": "https://openalex.org/W4393476964",
+    "title": "Geophone data in the Rutor proglacial area (Valle d'Aosta, Italy)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393542761",
+    "title": "GNSS signals acquired by a Software Defined Radio (SDR) system subject to ionospheric scintillations",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393649013",
+    "title": "GNSS signals acquired by a Software Defined Radio (SDR) system subject to ionospheric scintillations",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393473000",
+    "title": "Frontiere della Transizione Energetica. Un database cartografico sui permessi di ricerca per materie prime critiche in Italia.",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393553384",
+    "title": "Frontiere della Transizione Energetica. Un database cartografico sui permessi di ricerca per materie prime critiche in Italia.",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393587653",
+    "title": "Forward modelling of Dα camera view in ST40 informed by experimental data (dataset)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393728334",
+    "title": "Forward modelling of Dα camera view in ST40 informed by experimental data (dataset)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394033843",
+    "title": "Forward modelling of Dα camera view in ST40 informed by experimental data (dataset)",
+    "year": 2023
+  },
+  {
     "dataset_id": "https://openalex.org/W4393511481",
     "title": "FOCA (Italian FlOod and Catchment Atlas)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393683708",
+    "title": "FOCA (Italian FlOod and Catchment Atlas)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393520530",
+    "title": "FOCA (Italian FlOod and Catchment Atlas)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393642642",
+    "title": "Enhancing the ReaxFF DFT database",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393701363",
+    "title": "Enhancing the ReaxFF DFT database",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393513767",
+    "title": "Electrochemical rewiring through quantum conductance effects in single metallic memristive nanowires - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393517638",
+    "title": "Electrochemical rewiring through quantum conductance effects in single metallic memristive nanowires - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393667759",
+    "title": "Electrical and Thermal Conductivities of Single CuxO Nanowires - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393822187",
+    "title": "Electrical and Thermal Conductivities of Single CuxO Nanowires - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393443975",
+    "title": "Effect of electrode materials on resistive switching behaviour of NbOx-based memristive devices - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393766439",
+    "title": "Effect of electrode materials on resistive switching behaviour of NbOx-based memristive devices - Dataset",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393459241",
+    "title": "Effect of combined subsurface structures and steps on hyporheic exchange",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393653583",
+    "title": "Effect of combined subsurface structures and steps on hyporheic exchange",
     "year": 2023
   },
   {
@@ -40,8 +1280,163 @@
     "year": 2023
   },
   {
+    "dataset_id": "https://openalex.org/W4393535378",
+    "title": "Digitized geological and geophysical data from the Po Plain and the northern Adriatic Sea (north Italy) collected from public sources.",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393546194",
+    "title": "Digitized geological and geophysical data from the Po Plain and the northern Adriatic Sea (north Italy) collected from public sources.",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393772115",
+    "title": "Dataset related to the article \"Reduction of Cardiac Fibrosis by Interference With YAP-Dependent Transactivation\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393807576",
+    "title": "Dataset related to the article \"Reduction of Cardiac Fibrosis by Interference With YAP-Dependent Transactivation\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393596485",
+    "title": "Dataset for the absolute frequency measurement of IT-Yb1 relative to IT-CsF2",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393679597",
+    "title": "Dataset for the absolute frequency measurement of IT-Yb1 relative to IT-CsF2",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393714957",
+    "title": "Dataset for \"Indoor transmission of respiratory droplets under different ventilation systems using Eulerian approach\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393765354",
+    "title": "Dataset for \"Indoor transmission of respiratory droplets under different ventilation systems using Eulerian approach\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393651483",
+    "title": "Dataset for \"Improving data quality of low-cost light-scattering PM sensors: Towards automatic air quality monitoring in urban environments\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393697813",
+    "title": "Dataset for \"Improving data quality of low-cost light-scattering PM sensors: Towards automatic air quality monitoring in urban environments\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393507803",
+    "title": "Dataset for \"A computational fluid dynamics—Population balance equation approach for evaporating cough droplets transport\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393662080",
+    "title": "Dataset for \"A computational fluid dynamics—Population balance equation approach for evaporating cough droplets transport\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393895764",
+    "title": "Data sample INDIP Validation Paper",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393618480",
+    "title": "Data sample INDIP Validation Paper",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393456633",
+    "title": "Data for: 3D in vitro modeling of the exocrine pancreatic unit using tomographic volumetric bioprinting",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394033066",
+    "title": "Data for the publication \"Mechanical communication within the microtubule through network-based analysis of tubulin dynamics\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394038680",
+    "title": "Data for the publication \"Mechanical communication within the microtubule through network-based analysis of tubulin dynamics\"",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4398635996",
+    "title": "DATASET: Digital Voice-of-Customer on sharing mobility services",
+    "year": 2023
+  },
+  {
     "dataset_id": "https://openalex.org/W4393966147",
     "title": "Bathymetry, sediment thickness, and geotechnical-geophysical properties of sediments of Lake Seracchi in Rutor proglacial area",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393669303",
+    "title": "Bathymetry, sediment thickness, and geotechnical-geophysical properties of sediments of Lake Seracchi in Rutor proglacial area",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394057068",
+    "title": "Bathymetry and Sediment thickness distribution of Lago dei Seracchi alpine lake, Rutor basin, Aosta Valley, Italy",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393728667",
+    "title": "Bathymetry and Sediment thickness distribution of Lago dei Seracchi alpine lake, Rutor basin, Aosta Valley, Italy",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393456038",
+    "title": "Assessing real-world gait with digital technology? Validation, insights and recommendations from the Mobilise-D consortium",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393843958",
+    "title": "Assessing real-world gait with digital technology? Validation, insights and recommendations from the Mobilise-D consortium",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394173847",
+    "title": "Additional file 3 of A novel concept of photosynthetic soft membranes: a numerical study",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394263416",
+    "title": "Additional file 2 of A novel concept of photosynthetic soft membranes: a numerical study",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393733869",
+    "title": "Acoustic measurements in the ancient open-air theatre of Tyndaris",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393830978",
+    "title": "Acoustic measurements in the ancient open-air theatre of Tyndaris",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393458876",
+    "title": "A synchrotron X-ray scattering study of the crystallization behavior of mixtures of confectionary triacylglycerides: effect of chemical composition and shear on polymorphism and kinetics",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393466639",
+    "title": "A synchrotron X-ray scattering study of the crystallization behavior of mixtures of confectionary triacylglycerides: effect of chemical composition and shear on polymorphism and kinetics",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393676039",
+    "title": "A new repository of geophysical data in Ny-Ålesund (Svalbard)",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393692694",
+    "title": "A new repository of geophysical data in Ny-Ålesund (Svalbard)",
     "year": 2023
   },
   {
@@ -50,13 +1445,568 @@
     "year": 2023
   },
   {
+    "dataset_id": "https://openalex.org/W4393630385",
+    "title": "A new repository of electrical resistivity tomography and ground penetrating radar data from summer 2022 near Ny-Ålesund, Svalbard.",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393415631",
+    "title": "(EMPIR 19ENG06 HEFMAG) Data sets of measurements of magnetic loss and complex permeability on amorphous and nanocrystalline samples up to the MHz range",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393567248",
+    "title": "(EMPIR 19ENG06 HEFMAG) Data sets of measurements of magnetic loss and complex permeability on amorphous and nanocrystalline samples up to the MHz range",
+    "year": 2023
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393519460",
+    "title": "simulated data for ASSE verification: noise-free and noisy data",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393567764",
+    "title": "simulated data for ASSE verification: noise-free and noisy data",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393472891",
+    "title": "mdpi-plasma-2022",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393636388",
+    "title": "mdpi-plasma-2022",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393561428",
+    "title": "Variable Geometry Turbines Industrialization for a Circular Economy of Distributed Wind Energy",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393779626",
+    "title": "Variable Geometry Turbines Industrialization for a Circular Economy of Distributed Wind Energy",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393644145",
+    "title": "Traders in Food Systems are Keystone Actors for Water Stewardship",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394040465",
+    "title": "Satellite Burned Area Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393534506",
+    "title": "Satellite Burned Area Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393594879",
+    "title": "SC2 input files",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394027995",
+    "title": "SC2 input files",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393494609",
+    "title": "Research data supporting: \"Classifying soft self-assembled materials via unsupervised machine learning of defects\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393620944",
+    "title": "Research data supporting: \"Classifying soft self-assembled materials via unsupervised machine learning of defects\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393414833",
+    "title": "Research data supporting \"Ephemeral Ice-Like Local Environments in Classical Rigid Models of Liquid Water\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393466074",
+    "title": "Research data supporting \"Ephemeral Ice-Like Local Environments in Classical Rigid Models of Liquid Water\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393419665",
+    "title": "Multi-temporal Structure from Motion ponit clouds of riparian vegetation",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393585095",
+    "title": "Multi-temporal Structure from Motion ponit clouds of riparian vegetation",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393628333",
+    "title": "Model output and analysis scripts for \"High-latitude precipitation as a driver of multicentennial variability of the AMOC in a climate model of intermediate complexity\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394055293",
+    "title": "Model output and analysis scripts for \"High-latitude precipitation as a driver of multicentennial variability of the AMOC in a climate model of intermediate complexity\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393569609",
+    "title": "International corporations trading Brazilian soy are keystone actors for water stewardship",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393690404",
+    "title": "International corporations trading Brazilian soy are keystone actors for water stewardship",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393655528",
+    "title": "Input and Output dataset for \"Robustness tests for an optical time scale\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393662780",
+    "title": "Input and Output dataset for \"Robustness tests for an optical time scale\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393547054",
+    "title": "In silico investigation of Alsin RLD conformational dynamics and phosphoinositides binding mechanism",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393702939",
+    "title": "In silico investigation of Alsin RLD conformational dynamics and phosphoinositides binding mechanism",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393644721",
+    "title": "Grid-graph modeling of emergent neuromorphic dynamics and heterosynaptic plasticity in memristive nanonetworks - Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393841467",
+    "title": "Grid-graph modeling of emergent neuromorphic dynamics and heterosynaptic plasticity in memristive nanonetworks - Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4223640960",
+    "title": "Faculty Opinions recommendation of Lévy-like movement patterns of metastatic cancer cells revealed in microfabricated systems and implicated in vivo.",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4220955680",
+    "title": "Faculty Opinions recommendation of Competition between epithelial tissue elasticity and surface tension in cancer morphogenesis.",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393593357",
+    "title": "Experimental data for validation of a single-storey flexible double-skin façade system model",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393813346",
+    "title": "Experimental data for validation of a single-storey flexible double-skin façade system model",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393542940",
+    "title": "Experimental and modeling study of metal-insulator interfaces to control the electronic transport in single nanowire memristive device - Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393687150",
+    "title": "Experimental and modeling study of metal-insulator interfaces to control the electronic transport in single nanowire memristive device - Dataset",
+    "year": 2022
+  },
+  {
     "dataset_id": "https://openalex.org/W4393634046",
     "title": "Example subjects for Mobilise-D data standardization",
     "year": 2022
   },
   {
+    "dataset_id": "https://openalex.org/W4393733306",
+    "title": "Example subjects for Mobilise-D data standardization",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393722018",
+    "title": "Effect of different system parameters on the design of the EU DEMO vacuum vessel pressure suppression system (dataset)",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393712754",
+    "title": "Effect of different system parameters on the design of the EU DEMO vacuum vessel pressure suppression system (dataset)",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393723942",
+    "title": "ERDS alerts based on WRF model output",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393819315",
+    "title": "ERDS alerts based on WRF model output",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393671537",
+    "title": "Datasets of Marzano et al, Metrologia 59, 065001 (2022), \"PTB–INRIM comparison of novel digital impedance bridges with graphene impedance quantum standards\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394054321",
+    "title": "Datasets of Marzano et al, Metrologia 59, 065001 (2022), \"PTB–INRIM comparison of novel digital impedance bridges with graphene impedance quantum standards\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393417799",
+    "title": "Dataset of D.-H. Chae et al., Meas. Sci.Technol 33 (2022) 065012, \"Investigation of the stability of graphene devices for quantum resistance metrology at direct and alternating current\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394055690",
+    "title": "Dataset of D.-H. Chae et al., Meas. Sci.Technol 33 (2022) 065012, \"Investigation of the stability of graphene devices for quantum resistance metrology at direct and alternating current\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393617216",
+    "title": "Dataset for Code Review Guidelines for GUI-based Testing Artifacts",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393799328",
+    "title": "Dataset for Code Review Guidelines for GUI-based Testing Artifacts",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393686574",
+    "title": "Dataset for \"Application of dissipative particle dynamics to interfacial systems: Parameterization and scaling\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393731242",
+    "title": "Dataset for \"Application of dissipative particle dynamics to interfacial systems: Parameterization and scaling\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393432975",
+    "title": "Database of optical parameters for the simulation of perovskite/silicon solar cells",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393892058",
+    "title": "Database of optical parameters for the simulation of perovskite/silicon solar cells",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393634735",
+    "title": "Data of \"Durability of self-healing cementitious systems with encapsulated polyurethane evaluated with a new pre-standard test method\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393470950",
+    "title": "Data of \"Durability of self-healing cementitious systems with encapsulated polyurethane evaluated with a new pre-standard test method\"",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393616703",
+    "title": "Data for EBE_Extended_Biomass_Estimation on GitHub",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393673929",
+    "title": "Data for EBE_Extended_Biomass_Estimation on GitHub",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393509035",
+    "title": "Connectome of memristive nanowire networks through graph theory - Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393631782",
+    "title": "Connectome of memristive nanowire networks through graph theory - Dataset",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393757110",
+    "title": "Code-to-code SIMMER/FRENETIC comparison for the neutronic simulation of lead-cooled fast reactors (dataset)",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393710237",
+    "title": "Code-to-code SIMMER/FRENETIC comparison for the neutronic simulation of lead-cooled fast reactors (dataset)",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393802933",
+    "title": "Bathymetry and Sediment thickness distribution of Lago dei Seracchi alpine lake, Rutor basin, Aosta Valley, Italy",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393701953",
+    "title": "Atomic clock dataset for 'Coherent Optical-Fiber Link Across Italy and France'",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393822971",
+    "title": "Atomic clock dataset for 'Coherent Optical-Fiber Link Across Italy and France'",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393672042",
+    "title": "Approximate Entropy of Spiking Series Reveals Different Dynamical States in Cortical Assemblies",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393741705",
+    "title": "Approximate Entropy of Spiking Series Reveals Different Dynamical States in Cortical Assemblies",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393562677",
+    "title": "Application of X‑ray Microcomputed Tomography for the Static and Dynamic Characterization of the Microstructure of Oleofoams",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393708560",
+    "title": "Application of X‑ray Microcomputed Tomography for the Static and Dynamic Characterization of the Microstructure of Oleofoams",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393476242",
+    "title": "Analysis of particles size distributions in Mg(OH)2 precipitation from highly concentrated MgCl2 solutions",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393694190",
+    "title": "Analysis of particles size distributions in Mg(OH)2 precipitation from highly concentrated MgCl2 solutions",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393530811",
+    "title": "Addressing global hotspots of climate-related crop production losses",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393682308",
+    "title": "Addressing global hotspots of climate-related crop production losses",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393413972",
+    "title": "A non-intrusive reduced order model for the characterisation of the spatial power distribution in large thermal reactors (dataset)",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393677733",
+    "title": "A non-intrusive reduced order model for the characterisation of the spatial power distribution in large thermal reactors (dataset)",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393785403",
+    "title": "A non-intrusive nuclear data uncertainty propagation study for the ARC fusion reactor design",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393577746",
+    "title": "A non-intrusive nuclear data uncertainty propagation study for the ARC fusion reactor design",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393897674",
+    "title": "A non-intrusive nuclear data uncertainty propagation study for the ARC fusion reactor design",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394021004",
+    "title": "A non-intrusive nuclear data uncertainty propagation study for the ARC fusion reactor design",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4220964663",
+    "title": "10.1063/9.0000287.2",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4220683197",
+    "title": "10.1063/9.0000287.1",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4225427009",
+    "title": "10.1063/5.0085847.1",
+    "year": 2022
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393451110",
+    "title": "Variable Flow Data Sets",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394020887",
+    "title": "Variable Flow Data Sets",
+    "year": 2021
+  },
+  {
     "dataset_id": "https://openalex.org/W3173434596",
     "title": "Tracking Knowledge Propagation Across Wikipedia Languages",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393877361",
+    "title": "Tracking Knowledge Propagation Across Wikipedia Languages",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W3154164368",
+    "title": "Testing 3D modelling software. Modelling charging pads for WPT of electric vehicles for EM emissions simulation.",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393500361",
+    "title": "Testing 3D modelling software. Modelling charging pads for WPT of electric vehicles for EM emissions simulation.",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393508395",
+    "title": "Supplementary Material: \"A Density-Based Algorithm for the Detection of Individual Trees from LiDAR Data\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393564005",
+    "title": "Supplementary Material: \"A Density-Based Algorithm for the Detection of Individual Trees from LiDAR Data\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393799769",
+    "title": "Structure-Dependent Influence of Moisture on Resistive Switching Behavior of ZnO Thin Films - Dataset",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394040370",
+    "title": "Structure-Dependent Influence of Moisture on Resistive Switching Behavior of ZnO Thin Films - Dataset",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393715495",
+    "title": "Semantic Segmentation Vineyard Rows",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393479621",
+    "title": "Semantic Segmentation Vineyard Rows",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393597074",
+    "title": "Research data: preparation of nanocellulose using non-aligned hemp bast fibers",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393614000",
+    "title": "Research data: preparation of nanocellulose using non-aligned hemp bast fibers",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393797862",
+    "title": "Research data: preparation of nanocellulose using non-aligned hemp bast fibers",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393531302",
+    "title": "Research data supporting: \"Toward Chemotactic Supramolecular Nanoparticles: From Autonomous Surface Motion Following Specific Chemical Gradients to Multivalency-Controlled Disassembly\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393597557",
+    "title": "Research data supporting: \"Toward Chemotactic Supramolecular Nanoparticles: From Autonomous Surface Motion Following Specific Chemical Gradients to Multivalency-Controlled Disassembly\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393744526",
+    "title": "Research data supporting: \"A Data-Driven Dimensionality Reduction Approach to Compare and Classify Lipid Force Fields\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394047308",
+    "title": "Research data supporting: \"A Data-Driven Dimensionality Reduction Approach to Compare and Classify Lipid Force Fields\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393520052",
+    "title": "Research data supporting \"Multiscale Molecular Modelling of ATP-Fueled Supramolecular Polymerisation and Depolymerisation\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394049535",
+    "title": "Research data supporting \"Multiscale Molecular Modelling of ATP-Fueled Supramolecular Polymerisation and Depolymerisation\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393764086",
+    "title": "Research Data supporting \"Cooperative Supramolecular Block Copolymerization for the Synthesis of Functional Axial Organic Heterostructures\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393770076",
+    "title": "Research Data supporting \"Cooperative Supramolecular Block Copolymerization for the Synthesis of Functional Axial Organic Heterostructures\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393571614",
+    "title": "Research Data supporting \"Controlling the length of porphyrin supramolecular polymers via coupled equilibria and dilution-induced supramolecular polymerization\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393827273",
+    "title": "Research Data supporting \"Controlling the length of porphyrin supramolecular polymers via coupled equilibria and dilution-induced supramolecular polymerization\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393485814",
+    "title": "Research Data Supporting \"Electrostatic co-assembly of nanoparticles with oppositely charged small molecules into static and dynamic superstructures\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393656863",
+    "title": "Research Data Supporting \"Electrostatic co-assembly of nanoparticles with oppositely charged small molecules into static and dynamic superstructures\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393840854",
+    "title": "Research Data Supporting \"Controlling Exchange Pathways in Dynamic Supramolecular Polymers by Controlling Defects\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393908237",
+    "title": "Research Data Supporting \"Controlling Exchange Pathways in Dynamic Supramolecular Polymers by Controlling Defects\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393557556",
+    "title": "ResCult European Interoperable Database",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393561259",
+    "title": "ResCult European Interoperable Database",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393714212",
+    "title": "Relative Potential Damage map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394020719",
+    "title": "Relative Potential Damage map",
     "year": 2021
   },
   {
@@ -65,8 +2015,223 @@
     "year": 2021
   },
   {
+    "dataset_id": "https://openalex.org/W4393523619",
+    "title": "Raw data and supplementary material of the second inter-laboratory testing program (RRT2, self-healing concrete with MgO-based expansive minerals) of the EU COST action SARCOS",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393751225",
+    "title": "REMOTE: DEMO Norway KPIs",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394027455",
+    "title": "REMOTE: DEMO Norway KPIs",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393615712",
+    "title": "Potential Damage map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393651090",
+    "title": "Potential Damage map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393416759",
+    "title": "Parametric Study of the Radiative Load Distribution on the EU-DEMO First Wall Due to SPI-Mitigated Disruptions and in Steady-State (dataset)",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393570402",
+    "title": "Parametric Study of the Radiative Load Distribution on the EU-DEMO First Wall Due to SPI-Mitigated Disruptions and in Steady-State (dataset)",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393559562",
+    "title": "Night Population map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393893415",
+    "title": "Night Population map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393673072",
+    "title": "MPOSE2021: a Dataset for Short-time Pose-based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393697952",
+    "title": "MPOSE2021: a Dataset for Short-time Pose-based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393498676",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393518715",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393604093",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393688870",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393724087",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393765620",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393790051",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393841057",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394044926",
+    "title": "MPOSE2021: a Dataset for Short-Time Pose-Based Human Action Recognition",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393470047",
+    "title": "Long short-term memory (LSTM) recurrent neural network for muscle activity detection",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393496139",
+    "title": "Long short-term memory (LSTM) recurrent neural network for muscle activity detection",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393547186",
+    "title": "Long short-term memory (LSTM) recurrent neural network for muscle activity detection",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393566714",
+    "title": "Lagrangian statistics in turbulent channel flow",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393897416",
+    "title": "Lagrangian statistics in turbulent channel flow",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393736668",
+    "title": "Lagrangian statistics in turbulent channel flow",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393844749",
+    "title": "Lagrangian statistics in turbulent channel flow",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393793708",
+    "title": "Labeled points for four land cover classes referring to the year 2019",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393828502",
+    "title": "Labeled points for four land cover classes referring to the year 2019",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393598058",
+    "title": "In materia reservoir computing with a fully memristive architecture based on self-organizing nanowire networks - Dataset",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394052627",
+    "title": "In materia reservoir computing with a fully memristive architecture based on self-organizing nanowire networks - Dataset",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393562834",
+    "title": "Improved Italian - Rainfall Extreme Dataset (I2-RED)",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393835922",
+    "title": "Improved Italian - Rainfall Extreme Dataset (I2-RED)",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393723262",
+    "title": "Generalized Perturbation Techniques for Uncertainty Quantification in Lead-Cooled Fast Reactors (dataset and software)",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393893149",
+    "title": "Generalized Perturbation Techniques for Uncertainty Quantification in Lead-Cooled Fast Reactors (dataset and software)",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4247705195",
+    "title": "Faculty Opinions recommendation of Torque-induced reorientation in active fibre-reinforced materials.",
+    "year": 2021
+  },
+  {
     "dataset_id": "https://openalex.org/W4394057386",
     "title": "Experimental assessment of the mixing quality in a circular cross-sectional t-shaped mixer for the precipitation of sparingly soluble compounds",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393791290",
+    "title": "Experimental assessment of the mixing quality in a circular cross-sectional t-shaped mixer for the precipitation of sparingly soluble compounds",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393804503",
+    "title": "Datasets of M. Marzano et al, Acta Imeko 10 (2021), \"Design and development of a coaxial cryogenic probe for precision measurements of the quantum Hall effect in the AC regime\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393828771",
+    "title": "Datasets of M. Marzano et al, Acta Imeko 10 (2021), \"Design and development of a coaxial cryogenic probe for precision measurements of the quantum Hall effect in the AC regime\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393490269",
+    "title": "Datasets for the paper \"Hardware-in-the-loop simulation of wave energy converters based on dielectric elastomer generators\" by G. Moretti et al.",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393656595",
+    "title": "Datasets for the paper \"Hardware-in-the-loop simulation of wave energy converters based on dielectric elastomer generators\" by G. Moretti et al.",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393545911",
+    "title": "Dataset of M. Marzano et al, Metrologia 58, 015002 (2020), \"A fully digital bridge towards the realization of the farad from the quantum Hall effect\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393662602",
+    "title": "Dataset of M. Marzano et al, Metrologia 58, 015002 (2020), \"A fully digital bridge towards the realization of the farad from the quantum Hall effect\"",
     "year": 2021
   },
   {
@@ -75,8 +2240,263 @@
     "year": 2021
   },
   {
+    "dataset_id": "https://openalex.org/W4393449926",
+    "title": "Dataset from: Design of a Littrow-type diode laser with independent control of cavity length and grating rotation",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393437657",
+    "title": "Dataset for publication \"Measurement of Dynamic Voltage Variation Effect on Instrument Transformers for Power Grid Applications\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393759240",
+    "title": "Dataset for publication \"Measurement of Dynamic Voltage Variation Effect on Instrument Transformers for Power Grid Applications\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393534277",
+    "title": "Dataset for \"Simulation of high Schmidt number fluids with dissipative particle dynamics: Parameter identification and robust viscosity evaluation\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393811420",
+    "title": "Dataset for \"Simulation of high Schmidt number fluids with dissipative particle dynamics: Parameter identification and robust viscosity evaluation\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393885653",
+    "title": "Dataset for \"Simulation of high Schmidt number fluids with dissipative particle dynamics: Parameter identification and robust viscosity evaluation\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393716301",
+    "title": "Dataset for \"Molecular modeling of the interface of an egg yolk protein-based emulsion\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393725264",
+    "title": "Dataset for \"Molecular modeling of the interface of an egg yolk protein-based emulsion\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393776078",
+    "title": "Dataset for \"Molecular modeling of the interface of an egg yolk protein-based emulsion\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393496694",
+    "title": "Data of physiology, biomechanics and hydrodynamics of a freshwater macrophyte",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393824836",
+    "title": "Data of physiology, biomechanics and hydrodynamics of a freshwater macrophyte",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393569239",
+    "title": "Data from: Reproducibility of the Quantification of Reversible Wall Interactions in VOC Sampling Lines",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393647942",
+    "title": "Data from: Reproducibility of the Quantification of Reversible Wall Interactions in VOC Sampling Lines",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393514228",
+    "title": "Data Set for Publication \"Traceable Characterization of Low Power Voltage Instrument Transformers for PQ and PMU Applications\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393619798",
+    "title": "Data Set for Publication \"Traceable Characterization of Low Power Voltage Instrument Transformers for PQ and PMU Applications\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393497611",
+    "title": "DatAndroid",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393686411",
+    "title": "DatAndroid",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393507219",
+    "title": "Damage Absolute Probability map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393752887",
+    "title": "Damage Absolute Probability map",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393703506",
+    "title": "DATASET: Biobased composites by photoinduced polymerization of car-danol methacrylate with microfibrillated cellulose - FTIR data",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394046838",
+    "title": "DATASET: Biobased composites by photoinduced polymerization of car-danol methacrylate with microfibrillated cellulose - FTIR data",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393691271",
+    "title": "Computational Data supporting \"Porous covalent organic nanotubes and their assembly in loops and toroids\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394050154",
+    "title": "Computational Data supporting \"Porous covalent organic nanotubes and their assembly in loops and toroids\"",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4398948220",
+    "title": "COVID-19 case data for Italy stratified by age class",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393628663",
+    "title": "A network analysis on cloud gaming: Stadia, GeForce Now and PSNow",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393881534",
+    "title": "A network analysis on cloud gaming: Stadia, GeForce Now and PSNow",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4245756859",
+    "title": "10.1063/5.0037825.1",
+    "year": 2021
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393486980",
+    "title": "Unveiling Web Fingerprinting in the Wild Via Code Mining and Machine Learning",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393578964",
+    "title": "Unveiling Web Fingerprinting in the Wild Via Code Mining and Machine Learning",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393776045",
+    "title": "Tunable photo-responsive elastic metamaterials",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393784925",
+    "title": "Tunable photo-responsive elastic metamaterials",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394038721",
+    "title": "Tunable photo-responsive elastic metamaterials",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393734435",
+    "title": "Towards a standard procedure for the measurement of the multi-photon component in a CW telecom heralded single-photon source",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394037051",
+    "title": "Towards a standard procedure for the measurement of the multi-photon component in a CW telecom heralded single-photon source",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393709631",
+    "title": "The ground-mounted photovoltaic panel in the Piedmont region.",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393759974",
+    "title": "The ground-mounted photovoltaic panel in the Piedmont region.",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W3210811903",
+    "title": "Supporting data for: \"Long lasting mucoadhesive membrane based on alginate and chitosan for intravaginal drug delivery.\"",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394056969",
+    "title": "Supporting data for: \"Long lasting mucoadhesive membrane based on alginate and chitosan for intravaginal drug delivery.\"",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393694889",
+    "title": "Supplementary Material: \"A Density-Based Algorithm for the Detection of Individual Trees from LiDAR Data\"",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393546295",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 5, Task 5.1",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393877711",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 5, Task 5.1",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W3210298501",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 2 - Tasks 2.1 - 2.3",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393703370",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 2 - Tasks 2.1 - 2.3",
+    "year": 2020
+  },
+  {
     "dataset_id": "https://openalex.org/W3215373063",
     "title": "Raw data and supplementary material of the fifth inter-laboratory testing program (RRT5, self-healing concrete with macrocapsules) of the EU COST action SARCOS",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393890234",
+    "title": "Raw data and supplementary material of the fifth inter-laboratory testing program (RRT5, self-healing concrete with macrocapsules) of the EU COST action SARCOS",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W3210126691",
+    "title": "Parametric Study of the Radiative Load Distribution on the EU-DEMO First Wall Due to SPI-Mitigated Disruptions and in Steady-State (dataset)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393482854",
+    "title": "Open-Ended Coaxial Cable Measurements in Diesel-Contaminated soil during Bioremediation",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393763735",
+    "title": "Open-Ended Coaxial Cable Measurements in Diesel-Contaminated soil during Bioremediation",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393614052",
+    "title": "Number of channels involved following a break in the EU DEMO HCPB and WCLL BB FW",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393765333",
+    "title": "Number of channels involved following a break in the EU DEMO HCPB and WCLL BB FW",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393721205",
+    "title": "Nano-sized calcium carbonate particles in cement mortars (DS18)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393780380",
+    "title": "Nano-sized calcium carbonate particles in cement mortars (DS18)",
     "year": 2020
   },
   {
@@ -85,7 +2505,97 @@
     "year": 2020
   },
   {
+    "dataset_id": "https://openalex.org/W4393471577",
+    "title": "Improved Italian - Rainfall Extreme Dataset (I2-RED)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393690301",
+    "title": "Improved Italian - Rainfall Extreme Dataset (I2-RED)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393432190",
+    "title": "Free-Space Optics Transmission with Time-Adaptive PCS Modulation",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394047956",
+    "title": "Free-Space Optics Transmission with Time-Adaptive PCS Modulation",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4237380484",
+    "title": "Faculty Opinions recommendation of Understanding the extracellular forces that determine cell fate and maintenance.",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4242929334",
+    "title": "Faculty Opinions recommendation of Cell reorientation under cyclic stretching.",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393487813",
+    "title": "Experimental Characterization of Optical Received Power in an Outdoor Free-Space Optics Link",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394027014",
+    "title": "Experimental Characterization of Optical Received Power in an Outdoor Free-Space Optics Link",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393442426",
+    "title": "EMUE-D6-6-DAQBoardElectricalQuantities",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393798116",
+    "title": "EMUE-D6-6-DAQBoardElectricalQuantities",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393496309",
+    "title": "Dataset: 'Survey: Advancing RDM at CESAER institutions'",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393732877",
+    "title": "Dataset: 'Survey: Advancing RDM at CESAER institutions'",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393804124",
+    "title": "Data of physiology, biomechanics and hydrodynamics of a freshwater macrophyte",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393489427",
+    "title": "Consensus based framework for digital mobility monitoring",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393560458",
+    "title": "Consensus based framework for digital mobility monitoring",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393504478",
+    "title": "Cinca River Field Survey: sediment sampling and tree measurement",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393555300",
+    "title": "Cinca River Field Survey: sediment sampling and tree measurement",
+    "year": 2020
+  },
+  {
     "dataset_id": "https://openalex.org/W3209650741",
+    "title": "CWASI database: virtual water trade and water footprint of agricultural products (1961-2016)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393584049",
     "title": "CWASI database: virtual water trade and water footprint of agricultural products (1961-2016)",
     "year": 2020
   },
@@ -95,9 +2605,114 @@
     "year": 2020
   },
   {
+    "dataset_id": "https://openalex.org/W4393656157",
+    "title": "CWASI database: virtual water trade and consumptive water footprint of agricultural products (1961-2016)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393660173",
+    "title": "CFD analysis of natural convection cooling of the in-vessel components during a shutdown of the EU DEMO fusion reactor (dataset)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393892791",
+    "title": "CFD analysis of natural convection cooling of the in-vessel components during a shutdown of the EU DEMO fusion reactor (dataset)",
+    "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4398437805",
+    "title": "Attitudes towards policy alternatives and economic change: conjoint experiments on policy options vis-à-vis automation and globalization",
+    "year": 2020
+  },
+  {
     "dataset_id": "https://openalex.org/W3135313273",
     "title": "A new method for protein characterization and classification using geometrical features for 3D face analysis: an example of tubulin structures",
     "year": 2020
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393598979",
+    "title": "Web Experience in Mobile Networks: Lessons from Two Million Page Visits",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393757479",
+    "title": "Web Experience in Mobile Networks: Lessons from Two Million Page Visits",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393565894",
+    "title": "Water Debt",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393794372",
+    "title": "Water Debt",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W3213194998",
+    "title": "Traffic forecasting with Virtual Induction Loops - SUMO simulation dataset",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393402278",
+    "title": "Traffic forecasting with Virtual Induction Loops - SUMO simulation dataset",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W3210486930",
+    "title": "The Politecnico di Torino rolling bearing test rig: description of the open-access data for vibration monitoring and diagnostics",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393622644",
+    "title": "The Politecnico di Torino rolling bearing test rig: description of the open-access data for vibration monitoring and diagnostics",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393468903",
+    "title": "Spatial Distribution of the International Food Prices: Unexpected Heterogeneity and Randomness",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393559447",
+    "title": "Spatial Distribution of the International Food Prices: Unexpected Heterogeneity and Randomness",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393893400",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Packages 2 and 4",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393599612",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 4",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393496015",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 4",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394026286",
+    "title": "Shared mobility opporTunities And challenges foR European citieS (STARS) - Work Package 4",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4242592000",
+    "title": "Faculty Opinions recommendation of Polarization and migration in the zebrafish posterior lateral line system.",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4250178993",
+    "title": "Faculty Opinions recommendation of A physics-based model explains the prion-like features of neurodegeneration in Alzheimer’s disease, Parkinson’s disease, and amyotrophic lateral sclerosis.",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4240185542",
+    "title": "Faculty Opinions recommendation of A Rho-GTPase based model explains spontaneous collective migration of neural crest cell clusters.",
+    "year": 2019
   },
   {
     "dataset_id": "https://openalex.org/W3215305333",
@@ -105,7 +2720,57 @@
     "year": 2019
   },
   {
+    "dataset_id": "https://openalex.org/W4393455800",
+    "title": "Experimental Data on PM-16QAM Long-Haul Transmission (after DSP)",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393799823",
+    "title": "Experimental Data on PM-16QAM Long-Haul Transmission (after DSP)",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393805239",
+    "title": "Emergency management/Natural Hazards: annotated tweets",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393922656",
+    "title": "Emergency management/Natural Hazards: annotated tweets",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393587658",
+    "title": "Dataset for Surface Enhanced Raman Spectroscopy for quantitative analysis: results of a large-scale European multi-instrument interlaboratory study",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393402410",
+    "title": "Dataset for Surface Enhanced Raman Spectroscopy for quantitative analysis: results of a large-scale European multi-instrument interlaboratory study",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393737267",
+    "title": "Constant head values and Conductivity fields",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394038801",
+    "title": "Constant head values and Conductivity fields",
+    "year": 2019
+  },
+  {
     "dataset_id": "https://openalex.org/W3208965211",
+    "title": "CWASI database: virtual water trade and consumptive water footprint of agricultural products (1961-2013)",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393418872",
+    "title": "CWASI database: virtual water trade and consumptive water footprint of agricultural products (1961-2013)",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393607437",
     "title": "CWASI database: virtual water trade and consumptive water footprint of agricultural products (1961-2013)",
     "year": 2019
   },
@@ -115,13 +2780,288 @@
     "year": 2019
   },
   {
+    "dataset_id": "https://openalex.org/W4393486450",
+    "title": "Absolute frequency measurement of the 1 S 0 – 3 P 0 transition of 171 Yb with a link to International Atomic Time",
+    "year": 2019
+  },
+  {
+    "dataset_id": "https://openalex.org/W4246680380",
+    "title": "Trade-Off Analysis to Solve a Probabilistic Multi-Objective Problem for Passive Filtering System Planning",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W3208576297",
+    "title": "Probabilistic Shaping Over Multi-Subcarrier Modulation - Lab Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393581983",
+    "title": "Probabilistic Shaping Over Multi-Subcarrier Modulation - Lab Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393464152",
+    "title": "Madforwater: Wp2: Adaptation Of Wastewater Treatment Technologies For Agricultural Reuse: Task2.4: Industrial Wastewater Treatment: Treatment Of Different Types Of Wastewater By Means Of Innovative Resins: Subset1",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393752040",
+    "title": "Madforwater: Wp2: Adaptation Of Wastewater Treatment Technologies For Agricultural Reuse: Task2.4: Industrial Wastewater Treatment: Treatment Of Different Types Of Wastewater By Means Of Innovative Resins: Subset1",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393807559",
+    "title": "Madforwater: Wp2: Adaptation Of Wastewater Treatment Technologies For Agricultural Reuse: Task2.4: Industrial Wastewater Treatment: Treatment Of Different Types Of Wastewater By Means Of Innovative Resins: Subset1",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393434900",
+    "title": "Fdhmf - Lab Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393897414",
+    "title": "Fdhmf - Lab Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393466655",
+    "title": "Fdhmf - Egn Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393476207",
+    "title": "Fdhmf - Egn Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393785406",
+    "title": "Fdhmf - Egn Data",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4249471647",
+    "title": "Faculty Opinions recommendation of Three-dimensional simulation of obstacle-mediated chemotaxis.",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4250405634",
+    "title": "Faculty Opinions recommendation of Kinematics of flagellar swimming in Euglena gracilis: Helical trajectories and flagellar shapes.",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4237468377",
+    "title": "Determination of the Prosumer’s Optimal Bids",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393652945",
+    "title": "Dataset for 3D shape factor between two cylinders",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393907808",
+    "title": "Dataset for 3D shape factor between two cylinders",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393657858",
+    "title": "BIONICS preliminary data_V1",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394046707",
+    "title": "BIONICS preliminary data_V1",
+    "year": 2018
+  },
+  {
     "dataset_id": "https://openalex.org/W4235558188",
     "title": "Artificial Photosynthesis for Solar Fuels – an Evolving Research Field within AMPEA, a Joint Programme of the European Energy Research Alliance",
     "year": 2018
   },
   {
-    "dataset_id": "https://openalex.org/W4237500344",
-    "title": "10.1063/1.3253423.1",
+    "dataset_id": "https://openalex.org/W4253433595",
+    "title": "Allocation of Capacitors and Voltage Regulators in Unbalanced Distribution Systems: A Multi-objective Problem in Probabilistic Frameworks",
+    "year": 2018
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393567125",
+    "title": "Synthetic geospatial data for performance analysis of geospatial database systems",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393624670",
+    "title": "Synthetic geospatial data for performance analysis of geospatial database systems",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393437066",
+    "title": "Speedtest-Like Measurements In 3G/4G Networks: The Monroe Experience",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393496028",
+    "title": "Speedtest-Like Measurements In 3G/4G Networks: The Monroe Experience",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393607324",
+    "title": "Spatial Variation And Inconsistency Between Estimates Of Onset Of Muscle Activation From Emg And Ultrasound",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W3208106259",
+    "title": "Single-Carrier: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393503123",
+    "title": "Single-Carrier: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393476457",
+    "title": "Single-Carrier: Experimental Loop Recirculation Data Set - 250G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393771453",
+    "title": "Single-Carrier: Experimental Loop Recirculation Data Set - 250G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393631605",
+    "title": "Single-Carrier: Experimental Loop Recirculation Data Set - 200G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393802021",
+    "title": "Single-Carrier: Experimental Loop Recirculation Data Set - 200G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393640826",
+    "title": "Probabilistic Shaping: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393666946",
+    "title": "Probabilistic Shaping: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393491358",
+    "title": "Probabilistic Shaping: Experimental Loop Recirculation Data Set - 250G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393827328",
+    "title": "Probabilistic Shaping: Experimental Loop Recirculation Data Set - 250G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393449447",
+    "title": "Probabilistic Shaping: Experimental Loop Recirculation Data Set - 225G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393471078",
+    "title": "Probabilistic Shaping: Experimental Loop Recirculation Data Set - 225G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393486944",
+    "title": "Probabilistic Shaping: Experimental Loop Recirculation Data Set - 200G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393786891",
+    "title": "Probabilistic Shaping: Experimental Loop Recirculation Data Set - 200G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393655902",
+    "title": "Mobile Broadband Speedtest Traces",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393819782",
+    "title": "Mobile Broadband Speedtest Traces",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393414493",
+    "title": "Fdhmf: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393479489",
+    "title": "Fdhmf: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393492197",
+    "title": "Fdhmf: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4394020936",
+    "title": "Fdhmf: Experimental Optical Back-To-Back Data Set",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393623144",
+    "title": "Fdhmf: Experimental Loop Recirculation Data Set - 250G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393647376",
+    "title": "Fdhmf: Experimental Loop Recirculation Data Set - 250G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393517132",
+    "title": "Fdhmf: Experimental Loop Recirculation Data Set - 225G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393891681",
+    "title": "Fdhmf: Experimental Loop Recirculation Data Set - 225G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393536034",
+    "title": "Fdhmf: Experimental Loop Recirculation Data Set - 200G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393709801",
+    "title": "Fdhmf: Experimental Loop Recirculation Data Set - 200G",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4388490152",
+    "title": "A Scientific Approach To Entrepreneurial Decision Making",
+    "year": 2017
+  },
+  {
+    "dataset_id": "https://openalex.org/W4251659111",
+    "title": "Poly(ethylene terephthalate)-carbon nanofiber nano composite for fiber spinning; properties and combustion behavior",
+    "year": 2016
+  },
+  {
+    "dataset_id": "https://openalex.org/W4393577056",
+    "title": "On The Alignment Of Academic Publishers’ Embargos With H2020 Requirements - Dataset",
+    "year": 2016
+  },
+  {
+    "dataset_id": "https://openalex.org/W4231675018",
+    "title": "10.1063/1.3302284.1",
+    "year": 2010
+  },
+  {
+    "dataset_id": "https://openalex.org/W4236315149",
+    "title": "10.1063/1.3253423.2",
     "year": 2009
   }
 ]
