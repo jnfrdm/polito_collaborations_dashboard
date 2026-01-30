@@ -29,6 +29,7 @@
         color: var(--fg);
         display: flex;
         flex-direction: column;
+        padding-bottom: 3rem;
       }
 
       header {
@@ -408,6 +409,19 @@
         background: rgba(248, 250, 252, 0.2);
         color: #fcd34d;
       }
+
+      .funding-disclaimer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.8rem;
+        color: rgba(248, 250, 252, 0.6);
+        border-top: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(15, 23, 42, 0.9);
+      }
     </style>
   </head>
   <body>
@@ -436,6 +450,9 @@
         </div>
       </aside>
     </main>
+    <footer class="funding-disclaimer">
+      Funded within the framework of the CoARA Boost Project under grant agreement No 101131826.
+    </footer>
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="

@@ -29,6 +29,7 @@
         align-items: center;
         justify-content: center;
         padding: 2rem;
+        padding-bottom: 3.5rem;
       }
 
       .dashboard {
@@ -139,6 +140,19 @@
         margin-top: 1rem;
       }
 
+      .funding-disclaimer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.8rem;
+        color: var(--muted);
+        border-top: 1px solid rgba(148, 163, 184, 0.2);
+        background: rgba(2, 6, 23, 0.9);
+      }
+
       @media (max-width: 600px) {
         body {
           padding: 1rem;
@@ -170,6 +184,9 @@
         <div id="empty" class="empty-state" hidden>No collaborations found for this country.</div>
       </section>
     </div>
+    <footer class="funding-disclaimer">
+      Funded within the framework of the CoARA Boost Project under grant agreement No 101131826.
+    </footer>
 
     <script>
       const params = new URLSearchParams(window.location.search);
